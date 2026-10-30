@@ -1,0 +1,6 @@
+{
+ "status": "failed",
+ "set": "software",
+ "note": "4 个页面正文 < 400 字符，如 https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/index.html",
+ "title": "Isaac Lab documentation (offline HTML subset)"
+}

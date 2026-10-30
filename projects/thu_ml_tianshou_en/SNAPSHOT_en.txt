@@ -1,0 +1,5 @@
+repo: https://github.com/thu-ml/tianshou
+ref: HEAD
+commit: f2402056b03acafeedf2518a5088db55add004ab
+archive: https://codeload.github.com/thu-ml/tianshou/zip/f2402056b03acafeedf2518a5088db55add004ab
+archive_sha256: dfc3e4ef3b1f2359b6a7d7b0939f93086bd88c994604371010df5dd595b8ba8a

@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "courses",
+ "title": "Stanford CS234 Reinforcement Learning course pages (offline HTML subset)",
+ "files": [
+  {
+   "path": "courses/Stanford_CS234_RL_html_en",
+   "url": "https://web.stanford.edu/class/cs234/",
+   "html_pages": 1,
+   "files": 2,
+   "bytes": 34131
+  }
+ ],
+ "note": "官方 HTML，1 个页面全部 HTTP 200 且正文 ≥ 400 字符；已按 URL 路径保存页面本体（未镜像站外 CSS/JS），共 2 个文件；页面清单 PAGES_en.txt"
+}

@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "books",
+ "title": "A Course in Reinforcement Learning (2nd Edition, Athena Scientific, 2025)",
+ "files": [
+  {
+   "path": "books/Bertsekas_Course_in_Reinforcement_Learning_2ed_en.pdf",
+   "url": "https://web.mit.edu/dimitrib/www/RLCOURSECOMPLETE%202ndEDITION.pdf",
+   "pages": 523,
+   "sha256": "82e266d8cee624677c3e2570b294a11a7d13a12db60ad58046fc377860978394",
+   "bytes": 20051040
+  }
+ ],
+ "note": "HTTP 200；%PDF；pypdf 可解析 523 页；名称短语已见"
+}

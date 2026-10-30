@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "books",
+ "title": "Rollout, Policy Iteration, and Distributed Reinforcement Learning (Athena Scientific, 2020)",
+ "files": [
+  {
+   "path": "books/Bertsekas_Rollout_Policy_Iteration_Distributed_RL_en.pdf",
+   "url": "https://web.mit.edu/dimitrib/www/Rollout_Complete%20Book.pdf",
+   "pages": 499,
+   "sha256": "b83a4827d4fc7f778326ae8156193fe4973eaa1336f20264a53d1902b7fe7d1b",
+   "bytes": 13405794
+  }
+ ],
+ "note": "HTTP 200；%PDF；pypdf 可解析 499 页；名称短语已见"
+}

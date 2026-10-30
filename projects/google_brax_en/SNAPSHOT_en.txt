@@ -1,0 +1,5 @@
+repo: https://github.com/google/brax
+ref: HEAD
+commit: c8605294264a7b7546268adbb4beabc9eb624000
+archive: https://codeload.github.com/google/brax/zip/c8605294264a7b7546268adbb4beabc9eb624000
+archive_sha256: b87184e813b5a60393e414671840dc20c57dfeee16dc88ba75cffcc47fee97f0

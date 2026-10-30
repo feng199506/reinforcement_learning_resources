@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "Gymnasium official environment API and reference environments",
+ "files": [
+  {
+   "path": "projects/Farama_Gymnasium_en",
+   "url": "https://github.com/Farama-Foundation/Gymnasium",
+   "commit": "c08564bb8edd741ff20430d3b500b2e76966772d",
+   "files": 616,
+   "archive_sha256": "38b475f73033e7a2a683be171539108341d35ed4ce5f5cce5ebcec7db8afff61",
+   "bytes": 91654798
+  }
+ ],
+ "commit": "c08564bb8edd741ff20430d3b500b2e76966772d",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit c08564bb8edd：归档 zip 完整性通过，解压 616 个文件（0 个 notebook）；应有文件已见 ['README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

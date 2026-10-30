@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "books",
+ "title": "Dynamic Programming: Deterministic and Stochastic Models (Prentice-Hall, 1987)",
+ "files": [
+  {
+   "path": "books/Bertsekas_Dynamic_Programming_1987_en.pdf",
+   "url": "https://web.mit.edu/dimitrib/www/Bertsekas1987DP.pdf",
+   "pages": 389,
+   "sha256": "2246138094888d8dd719dc347af07e5fea43ec43e9ce8320843c8ac9c4159ada",
+   "bytes": 12173638
+  }
+ ],
+ "note": "HTTP 200；%PDF；pypdf 可解析 389 页；名称短语已见"
+}

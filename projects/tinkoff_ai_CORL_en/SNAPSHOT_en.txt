@@ -1,0 +1,5 @@
+repo: https://github.com/tinkoff-ai/CORL
+ref: HEAD
+commit: 6afec90484bbf47dee05fdf525e26a3ebe028e9b
+archive: https://codeload.github.com/tinkoff-ai/CORL/zip/6afec90484bbf47dee05fdf525e26a3ebe028e9b
+archive_sha256: 03307dd17de452572b367f502c5eb398a8fb805f350724f783778f37aa44c83e

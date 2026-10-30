@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "Minari official offline RL dataset API",
+ "files": [
+  {
+   "path": "projects/Farama_Minari_en",
+   "url": "https://github.com/Farama-Foundation/Minari",
+   "commit": "d88d29db69a84375274ce8c266e0e5d5f3a77a3f",
+   "files": 145,
+   "archive_sha256": "23097b00f4d07032fdec39f790e4262f82715a3dc7e5119fae27ed8e018f37c6",
+   "bytes": 3524388
+  }
+ ],
+ "commit": "d88d29db69a84375274ce8c266e0e5d5f3a77a3f",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit d88d29db69a8：归档 zip 完整性通过，解压 145 个文件（0 个 notebook）；应有文件已见 ['minari/dataset/minari_dataset.py', 'README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

@@ -1,0 +1,5 @@
+repo: https://github.com/vwxyzjn/cleanrl
+ref: HEAD
+commit: fe8d8a03c41a7ef5b523e2e354bd01c363e786bb
+archive: https://codeload.github.com/vwxyzjn/cleanrl/zip/fe8d8a03c41a7ef5b523e2e354bd01c363e786bb
+archive_sha256: fac4d9c67aa2615cefc5999c88b4095813b26c01b80811e60152f8a5854f7e8f

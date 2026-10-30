@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "Hugging Face TRL: SFT, reward, PPO, DPO, GRPO trainers",
+ "files": [
+  {
+   "path": "projects/huggingface_trl_en",
+   "url": "https://github.com/huggingface/trl",
+   "commit": "775de52a5805cbcd427556bde96677b946457ada",
+   "files": 576,
+   "archive_sha256": "5e10f1d71192444e7814c32b0c3eb8f2f7027bd8e08bf4f2ab75baec248ab154",
+   "bytes": 3576797
+  }
+ ],
+ "commit": "775de52a5805cbcd427556bde96677b946457ada",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit 775de52a5805：归档 zip 完整性通过，解压 576 个文件（12 个 notebook）；应有文件已见 ['README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

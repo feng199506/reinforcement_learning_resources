@@ -1,0 +1,5 @@
+repo: https://github.com/uoe-agents/epymarl
+ref: HEAD
+commit: cbc38c09588064eab978501d0f12c2cf58fa7fc2
+archive: https://codeload.github.com/uoe-agents/epymarl/zip/cbc38c09588064eab978501d0f12c2cf58fa7fc2
+archive_sha256: a9ce2f5c3e5ba775b07ea739206fb5349d9519abcabdc9c4fb6d86dae18aa1ab

@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "courses",
+ "title": "Hugging Face Deep RL Course (unit introductions, offline HTML subset)",
+ "files": [
+  {
+   "path": "courses/HuggingFace_DeepRL_Course_html_en",
+   "url": "https://huggingface.co/learn/deep-rl-course/en/unit0/introduction",
+   "html_pages": 9,
+   "files": 10,
+   "bytes": 1001298
+  }
+ ],
+ "note": "官方 HTML，9 个页面全部 HTTP 200 且正文 ≥ 400 字符；已按 URL 路径保存页面本体（未镜像站外 CSS/JS），共 10 个文件；页面清单 PAGES_en.txt"
+}

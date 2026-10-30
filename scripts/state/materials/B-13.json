@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "books",
+ "title": "Dynamic Programming and Stochastic Control (Academic Press, 1976)",
+ "files": [
+  {
+   "path": "books/Bertsekas_Dynamic_Programming_Stochastic_Control_1976_en.pdf",
+   "url": "https://web.mit.edu/dimitrib/www/Bertsekas_1976_dynamic-programming.pdf",
+   "pages": 415,
+   "sha256": "09ae23b8ece4e821cd487f24995d019011a7d8534310435c715fa1df185e896f",
+   "bytes": 4813537
+  }
+ ],
+ "note": "HTTP 200；%PDF；pypdf 可解析 415 页；名称短语已见"
+}

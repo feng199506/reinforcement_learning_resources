@@ -1,0 +1,5 @@
+https://pettingzoo.farama.org/
+https://pettingzoo.farama.org/content/basic_usage/
+https://pettingzoo.farama.org/api/parallel/
+https://pettingzoo.farama.org/api/aec/
+https://pettingzoo.farama.org/environments/mpe/

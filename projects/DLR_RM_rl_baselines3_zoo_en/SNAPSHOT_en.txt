@@ -1,0 +1,5 @@
+repo: https://github.com/DLR-RM/rl-baselines3-zoo
+ref: HEAD
+commit: 61956d90d9f8ac126043ed4024efa12a462d97e1
+archive: https://codeload.github.com/DLR-RM/rl-baselines3-zoo/zip/61956d90d9f8ac126043ed4024efa12a462d97e1
+archive_sha256: 5c68c9471149a60a089cd62330413bbb67df2d8ec79aad8528e9355f59f4f123

@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "RL Baselines3 Zoo: training, eval, and hyperparameter configs",
+ "files": [
+  {
+   "path": "projects/DLR_RM_rl_baselines3_zoo_en",
+   "url": "https://github.com/DLR-RM/rl-baselines3-zoo",
+   "commit": "61956d90d9f8ac126043ed4024efa12a462d97e1",
+   "files": 315,
+   "archive_sha256": "5c68c9471149a60a089cd62330413bbb67df2d8ec79aad8528e9355f59f4f123",
+   "bytes": 2577975
+  }
+ ],
+ "commit": "61956d90d9f8ac126043ed4024efa12a462d97e1",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit 61956d90d9f8：归档 zip 完整性通过，解压 315 个文件（0 个 notebook）；应有文件已见 ['train.py', 'enjoy.py', 'README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

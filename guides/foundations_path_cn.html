@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>基础学习路线</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]]}};</script>
+<script defer src="../_offline_libs/mathjax-3.2.2/es5/tex-mml-chtml.js"></script>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>基础学习路线</h1>
+<p>适用：本科入门到研究生先修。本路线只指向本库已收集资料，不替代课程学分。</p>
+<h2>1. 概率与优化先修</h2>
+<ul><li>概率：<a href="../courses/MIT_OCW_6_041SC_Probabilistic_Systems_en.zip"><code>courses/MIT_OCW_6_041SC_Probabilistic_Systems_en.zip</code></a>（MIT 6.041SC）。</li><li>凸优化：<a href="../books/Boyd_Vandenberghe_Convex_Optimization_en.pdf"><code>books/Boyd_Vandenberghe_Convex_Optimization_en.pdf</code></a>。用于策略优化、信赖域与约束，不是 RL 算法书。</li></ul>
+<h2>2. MDP、价值函数与 Bellman 方程</h2>
+<ol><li>Sutton &amp; Barto 第 3–4 章：<a href="../books/Sutton_Barto_RL_Introduction_2ed_2020_en.pdf"><code>books/Sutton_Barto_RL_Introduction_2ed_2020_en.pdf</code></a>。</li><li>David Silver 第 1–3 讲：<a href="../courses/UCL_David_Silver_RL_Course_2015_en/"><code>courses/UCL_David_Silver_RL_Course_2015_en/</code></a>。</li><li>Kochenderfer 等《Algorithms for Decision Making》第 7 章精确求解：<a href="../books/Kochenderfer_Wheeler_Wray_Algorithms_Decision_Making_en.pdf"><code>books/Kochenderfer_Wheeler_Wray_Algorithms_Decision_Making_en.pdf</code></a>。</li><li>控制表述：Bertsekas 1976/1987 动态规划全书（<code>books/Bertsekas_*DP*_en.pdf</code>）。</li></ol>
+<p>完成标志：能手写有限 MDP 的价值迭代、策略迭代，并说明折扣、平均代价与随机最短路的差别。</p>
+<h2>3. 表格方法</h2>
+<p>Silver 第 4–5 讲 + Sutton 第 5–6、12 章。对应子目录 <a href="../02_tabular_methods/papers/"><code>02_tabular_methods/papers/</code></a>。</p>
+<p>必须分清：</p>
+<ul><li>Monte Carlo：完整回报，不 bootstrap。</li><li>TD(0)/TD(λ)：bootstrap 与资格迹。</li><li>SARSA：同策略；Q-learning：离策略。</li><li>探索：ε-greedy、UCB；收敛条件见 Szepesvári <a href="../books/Szepesvari_Algorithms_for_RL_en.pdf"><code>books/Szepesvari_Algorithms_for_RL_en.pdf</code></a>。</li></ul>
+<h2>4. 探索的独立基础</h2>
+<p>Bandit 不是“小 MDP”，而是探索–利用的骨架：<a href="../books/Lattimore_Szepesvari_Bandit_Algorithms_en.pdf"><code>books/Lattimore_Szepesvari_Bandit_Algorithms_en.pdf</code></a>。</p>
+<h2>5. 函数逼近入口</h2>
+<p>Sutton 第 9–13 章，Silver 第 6–7 讲。理论侧：<a href="../books/Agarwal_Jiang_Kakade_Sun_Brantley_RL_Theory_ABJKS_en.pdf"><code>books/Agarwal_Jiang_Kakade_Sun_Brantley_RL_Theory_ABJKS_en.pdf</code></a> 与 <a href="../books/Bertsekas_Tsitsiklis_Neuro_Dynamic_Programming_en.pdf"><code>books/Bertsekas_Tsitsiklis_Neuro_Dynamic_Programming_en.pdf</code></a>（反例与收敛）。</p>
+<h2>6. 建议顺序</h2>
+<p>本科：Sutton → Silver → Spinning Up 文档 <a href="../courses/OpenAI_SpinningUp_DeepRL_html_en/spinningup.openai.com/en/latest/index.html"><code>courses/OpenAI_SpinningUp_DeepRL_html_en/</code></a> → CleanRL 代码。</p>
+<p>研究生理论：Szepesvári → Agarwal et al. → Abstract DP <a href="../books/Bertsekas_Abstract_Dynamic_Programming_3ed_en.pdf"><code>books/Bertsekas_Abstract_Dynamic_Programming_3ed_en.pdf</code></a>。</p>
+<p>控制/运筹：Bertsekas Course in RL <a href="../books/Bertsekas_Course_in_Reinforcement_Learning_2ed_en.pdf"><code>books/Bertsekas_Course_in_Reinforcement_Learning_2ed_en.pdf</code></a> 与 Powell <a href="../books/Powell_Sequential_Decision_Analytics_Modeling_2ed_en.pdf"><code>books/Powell_Sequential_Decision_Analytics_Modeling_2ed_en.pdf</code></a>。</p>
+</body></html>

@@ -1,0 +1,151 @@
+﻿论文编号,标题,代码状态,代码地址,对应项目编号,许可证,版本或commit,核验级别,缺失,备注
+P01-001,A Tour of Reinforcement Learning: The View from Continuous Control,无代码,,,见原文版权页/arXiv 许可,arXiv 1806.09460v2,,,理论综述
+P01-002,An Introduction to Deep Reinforcement Learning,无代码,,,见原文版权页/arXiv 许可,arXiv 1811.12560v2,,,深度RL导论
+P01-003,Provably Efficient Reinforcement Learning with Linear Function Approximation,无代码,,,见原文版权页/arXiv 许可,arXiv 1907.05388v2,,,线性函数逼近理论
+P01-004,"On the Theory of Policy Gradient Methods: Optimality, Approximation, and Distribution Shift",无代码,,,见原文版权页/arXiv 许可,arXiv 1908.00261v5,,,策略梯度理论
+P01-005,"PAC Guarantees for Reinforcement Learning: Sample Complexity, Coverage, and Structure",无代码,,,见原文版权页/arXiv 许可,arXiv 2603.01309v1,,,基础：MDP与动态规划
+P01-006,Regret and Sample Complexity of Online Q-Learning via Concentration of Stochastic Approximation with Time-Inhomogeneous Markov Chains,无代码,,,见原文版权页/arXiv 许可,arXiv 2602.16274v2,,,基础：MDP与动态规划
+P01-007,On the Convergence of Modified Policy Iteration in Risk Sensitive Exponential Cost Markov Decision Processes,无代码,,,见原文版权页/arXiv 许可,arXiv 2302.03811v2,,,基础：MDP与动态规划
+P01-008,Bilinear Classes: A Structural Framework for Provable Generalization in RL,无代码,,,见原文版权页/arXiv 许可,arXiv 2103.10897v3,,,基础：MDP与动态规划
+P01-009,Is a Good Representation Sufficient for Sample Efficient Reinforcement Learning?,无代码,,,见原文版权页/arXiv 许可,arXiv 1910.03016v4,,,基础：MDP与动态规划
+P01-010,A Theory of Regularized Markov Decision Processes,无代码,,,见原文版权页/arXiv 许可,arXiv 1901.11275v2,,,基础：MDP与动态规划
+P02-001,Is Q-learning Provably Efficient?,无代码,,,见原文版权页/arXiv 许可,arXiv 1807.03765v1,,,Q-learning收敛
+P02-002,#Exploration: A Study of Count-Based Exploration for Deep Reinforcement Learning,无代码,,,见原文版权页/arXiv 许可,arXiv 1611.04717v3,,,极小极大遗憾
+P02-003,PC-PG: Policy Cover Directed Exploration for Provable Policy Gradient Learning,无代码,,,见原文版权页/arXiv 许可,arXiv 2007.08459v2,,,UCBVI
+P02-004,Policy Optimization in Adversarial MDPs: Improved Exploration via Dilated Bonuses,无代码,,,见原文版权页/arXiv 许可,arXiv 2107.08346v1,,,表格理论
+P02-005,Dynamic Dialogue Policy for Continual Reinforcement Learning,无代码,,,见原文版权页/arXiv 许可,arXiv 2204.05928v2,,,表格方法
+P02-006,From Policy Evaluation to Off-Policy Control: Provable Emergence of In-Context Q-Learning,无代码,,,见原文版权页/arXiv 许可,arXiv 2610.18057v1,,,表格方法
+P02-007,TabQL: In-Context Q-Learning with Tabular Foundation Models,无代码,,,见原文版权页/arXiv 许可,arXiv 2605.18979v1,,,表格方法
+P02-008,Almost Sure Convergence of Differential Temporal Difference Learning for Average Reward Markov Decision Processes,无代码,,,见原文版权页/arXiv 许可,arXiv 2602.16629v1,,,表格方法
+P02-009,Missing Data Multiple Imputation for Tabular Q-Learning in Online RL,无代码,,,见原文版权页/arXiv 许可,arXiv 2510.10709v1,,,表格方法
+P02-010,Minimax Regret Bounds for Reinforcement Learning,无代码,,,见原文版权页/arXiv 许可,arXiv 1703.05449v2,,,表格方法
+P03-001,Playing Atari with Deep Reinforcement Learning,官方部分代码,https://github.com/google/deepmind-lab,,见原文版权页/arXiv 许可,arXiv 1312.5602v1,,本轮未运行；大型数据与权重未下载,DQN
+P03-002,Deep Reinforcement Learning with Double Q-learning,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1509.06461v3,,本轮未运行；大型数据与权重未下载,Double DQN
+P03-003,Prioritized Experience Replay,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1511.05952v4,,本轮未运行；大型数据与权重未下载,PER
+P03-004,Dueling Network Architectures for Deep Reinforcement Learning,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1511.06581v3,,本轮未运行；大型数据与权重未下载,Dueling
+P03-005,A Distributional Perspective on Reinforcement Learning,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1707.06887v1,,本轮未运行；大型数据与权重未下载,C51
+P03-006,MA-RLHF: Reinforcement Learning from Human Feedback with Macro Actions,官方部分代码,https://github.com/ernie-research/MA-RLHF,,见原文版权页/arXiv 许可,arXiv 2410.02743v2,,本轮未运行；大型数据与权重未下载,价值函数逼近
+P03-007,Distributional Reinforcement Learning with Regularized Wasserstein Loss,官方部分代码,https://github.com/datake/SinkhornDistRL,,见原文版权页/arXiv 许可,arXiv 2202.00769v5,,本轮未运行；大型数据与权重未下载,价值函数逼近
+P03-008,Generalizing soft actor-critic algorithms to discrete action spaces,官方部分代码,https://github.com/lezhang-thu/bigger-better-faster-SAC,,见原文版权页/arXiv 许可,arXiv 2407.11044v1,,本轮未运行；大型数据与权重未下载,价值函数逼近
+P03-009,Quantile-Coupled Flow Matching for Distributional Reinforcement Learning,官方部分代码,https://github.com/ori-goals/flowIQN,,见原文版权页/arXiv 许可,arXiv 2605.08515v1,,本轮未运行；大型数据与权重未下载,价值函数逼近
+P03-010,"A Deep Reinforcement Learning-Based TCP Congestion Control Algorithm: Design, Simulation, and Evaluation",官方部分代码,https://github.com/aglamazlarefe/DRL-TCP,,见原文版权页/arXiv 许可,arXiv 2508.01047v3,,本轮未运行；大型数据与权重未下载,价值函数逼近
+P04-001,Trust Region Policy Optimization,官方部分代码,https://github.com/joschu/modular_rl,,见原文版权页/arXiv 许可,arXiv 1502.05477v5,,本轮未运行；大型数据与权重未下载,TRPO
+P04-002,High-Dimensional Continuous Control Using Generalized Advantage Estimation,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1506.02438v6,,本轮未运行；大型数据与权重未下载,GAE
+P04-003,Proximal Policy Optimization Algorithms,官方完整实现,https://github.com/openai/baselines,,见原文版权页/arXiv 许可,arXiv 1707.06347v2,,本轮未运行；大型数据与权重未下载,PPO
+P04-004,Continuous control with deep reinforcement learning,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1509.02971v6,,本轮未运行；大型数据与权重未下载,DDPG
+P04-005,Addressing Function Approximation Error in Actor-Critic Methods,官方完整实现,https://github.com/sfujim/TD3,,见原文版权页/arXiv 许可,arXiv 1802.09477v3,,本轮未运行；大型数据与权重未下载,TD3
+P04-006,SplAgger: Split Aggregation for Meta-Reinforcement Learning,官方部分代码,https://github.com/jacooba/hyper,,见原文版权页/arXiv 许可,arXiv 2403.03020v3,,本轮未运行；大型数据与权重未下载,策略梯度与Actor-Critic
+P04-007,Revisiting Discrete Soft Actor-Critic,官方部分代码,https://github.com/coldsummerday/SD-SAC.git,,见原文版权页/arXiv 许可,arXiv 2209.10081v4,,本轮未运行；大型数据与权重未下载,策略梯度与Actor-Critic
+P04-008,Parallel $Q$-Learning: Scaling Off-policy Reinforcement Learning under Massively Parallel Simulation,官方部分代码,https://github.com/Improbable-AI/pql,,见原文版权页/arXiv 许可,arXiv 2307.12983v1,,本轮未运行；大型数据与权重未下载,策略梯度与Actor-Critic
+P04-009,RVI-SAC: Average Reward Off-Policy Deep Reinforcement Learning,官方部分代码,https://github.com/yhisaki/average-reward-drl,,见原文版权页/arXiv 许可,arXiv 2408.01972v1,,本轮未运行；大型数据与权重未下载,策略梯度与Actor-Critic
+P04-010,Robust Task Representations for Offline Meta-Reinforcement Learning via Contrastive Learning,官方部分代码,https://github.com/PKU-AI-Edge/CORRO,,见原文版权页/arXiv 许可,arXiv 2206.10442v1,,本轮未运行；大型数据与权重未下载,策略梯度与Actor-Critic
+P04-011,Soft Actor-Critic: Off-Policy Maximum Entropy Deep Reinforcement Learning with a Stochastic Actor,官方完整实现,https://github.com/haarnoja/sac,,见原文版权页/arXiv 许可,arXiv 1801.01290v2,,本轮未运行；大型数据与权重未下载,SAC
+P05-001,Curiosity-driven Exploration by Self-supervised Prediction,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1705.05363v1,,本轮未运行；大型数据与权重未下载,ICM
+P05-002,Exploration by Random Network Distillation,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1810.12894v1,,本轮未运行；大型数据与权重未下载,RND
+P05-003,Hindsight Experience Replay,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 1707.01495v3,,本轮未运行；大型数据与权重未下载,HER
+P05-004,Go-Explore: a New Approach for Hard-Exploration Problems,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1901.10995v4,,本轮未运行；大型数据与权重未下载,Go-Explore
+P05-005,MineDojo: Building Open-Ended Embodied Agents with Internet-Scale Knowledge,无代码,,,见原文版权页/arXiv 许可,arXiv 2206.08853v2,,,探索
+P05-006,Robust Deep Reinforcement Learning through Bootstrapped Opportunistic Curriculum,官方部分代码,https://github.com/jlwu002/BCL,,见原文版权页/arXiv 许可,arXiv 2206.10057v2,,本轮未运行；大型数据与权重未下载,探索与信用分配
+P05-008,Efficient Reinforcement Learning via Decoupling Exploration and Utilization,官方部分代码,https://github.com/yydsok/OPARL,,见原文版权页/arXiv 许可,arXiv 2312.15965v4,,本轮未运行；大型数据与权重未下载,探索与信用分配
+P05-009,Never Give Up: Learning Directed Exploration Strategies,无代码,,,见原文版权页/arXiv 许可,arXiv 2002.06038v1,,,探索与信用分配
+P05-010,Unifying Count-Based Exploration and Intrinsic Motivation,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1606.01868v2,,本轮未运行；大型数据与权重未下载,探索与信用分配
+P05-011,Diversity is All You Need: Learning Skills without a Reward Function,官方完整实现,https://github.com/alirezakazemipour/DIAYN-PyTorch,,见原文版权页/arXiv 许可,arXiv 1802.06070v6,,本轮未运行；大型数据与权重未下载,探索与信用分配
+P06-001,Deep Reinforcement Learning in a Handful of Trials using Probabilistic Dynamics Models,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 1805.12114v2,,本轮未运行；大型数据与权重未下载,PETS
+P06-002,Learning Latent Dynamics for Planning from Pixels,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 1811.04551v5,,本轮未运行；大型数据与权重未下载,PlaNet
+P06-003,Dream to Control: Learning Behaviors by Latent Imagination,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 1912.01603v3,,本轮未运行；大型数据与权重未下载,Dreamer
+P06-004,Mastering Atari with Discrete World Models,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 2010.02193v4,,本轮未运行；大型数据与权重未下载,DreamerV2
+P06-005,Mastering Diverse Domains through World Models,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 2301.04104v2,,本轮未运行；大型数据与权重未下载,DreamerV3
+P06-006,"Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model",无代码,,,见原文版权页/arXiv 许可,arXiv 1911.08265v2,,,MuZero
+P06-007,Temporal Difference Learning for Model Predictive Control,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 2203.04955v2,,本轮未运行；大型数据与权重未下载,TD-MPC
+P06-008,"TD-MPC2: Scalable, Robust World Models for Continuous Control",官方完整实现,,,见原文版权页/arXiv 许可,arXiv 2310.16828v2,,本轮未运行；大型数据与权重未下载,TD-MPC2
+P06-009,TD-MPC-Opt: Distilling Model-Based Multi-Task Reinforcement Learning Agents,官方部分代码,https://github.com/dmytro-kuzmenko/td-mpc-opt,,见原文版权页/arXiv 许可,arXiv 2507.01823v1,,本轮未运行；大型数据与权重未下载,模型式强化学习
+P06-010,R2-Dreamer: Redundancy-Reduced World Models without Decoders or Augmentation,官方部分代码,https://github.com/NM512/r2dreamer,,见原文版权页/arXiv 许可,arXiv 2603.18202v2,,本轮未运行；大型数据与权重未下载,模型式强化学习
+P07-001,"Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems",无代码,,,见原文版权页/arXiv 许可,arXiv 2005.01643v3,,,离线RL教程
+P07-002,Off-Policy Deep Reinforcement Learning without Exploration,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 1812.02900v3,,本轮未运行；大型数据与权重未下载,BCQ
+P07-003,Conservative Q-Learning for Offline Reinforcement Learning,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 2006.04779v3,,本轮未运行；大型数据与权重未下载,CQL
+P07-004,Offline Reinforcement Learning with Implicit Q-Learning,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 2110.06169v1,,本轮未运行；大型数据与权重未下载,IQL
+P07-005,A Minimalist Approach to Offline Reinforcement Learning,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 2106.06860v2,,本轮未运行；大型数据与权重未下载,TD3+BC
+P07-006,RvS: What is Essential for Offline RL via Supervised Learning?,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 2112.10751v2,,本轮未运行；大型数据与权重未下载,RvS
+P07-007,CORL: Research-oriented Deep Offline Reinforcement Learning Library,官方完整实现,https://github.com/corl-team/CORL,,见原文版权页/arXiv 许可,arXiv 2210.07105v4,,本轮未运行；大型数据与权重未下载,CORL
+P07-008,Dataset Distillation for Offline Reinforcement Learning,官方部分代码,https://github.com/ggflow123/DDRL,,见原文版权页/arXiv 许可,arXiv 2407.20299v3,,本轮未运行；大型数据与权重未下载,离线强化学习与模仿学习
+P07-009,Mutual Information Regularized Offline Reinforcement Learning,官方部分代码,https://github.com/sail-sg/MISA,,见原文版权页/arXiv 许可,arXiv 2210.07484v3,,本轮未运行；大型数据与权重未下载,离线强化学习与模仿学习
+P07-010,Offline Reinforcement Learning via Inverse Optimization,官方部分代码,https://github.com/TolgaOk/offlineRLviaIO,,见原文版权页/arXiv 许可,arXiv 2502.20030v3,,本轮未运行；大型数据与权重未下载,离线强化学习与模仿学习
+P08-001,Deep Recurrent Q-Learning for Partially Observable MDPs,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1507.06527v4,,本轮未运行；大型数据与权重未下载,DRQN
+P08-002,The Option-Critic Architecture,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 1609.05140v2,,本轮未运行；大型数据与权重未下载,Option-Critic
+P08-003,Data-Efficient Hierarchical Reinforcement Learning,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 1805.08296v4,,本轮未运行；大型数据与权重未下载,HIRO
+P08-004,FeUdal Networks for Hierarchical Reinforcement Learning,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1703.01161v2,,本轮未运行；大型数据与权重未下载,FuN
+P08-005,Deep Coordination Graphs,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 1910.00091v4,,本轮未运行；大型数据与权重未下载,OpenSpiel论文
+P08-006,Think Fast and Far: Long-Horizon Online POMDP Planning via Rapid State Sampling,官方部分代码,https://github.com/RDLLab/ROPRAS3,,见原文版权页/arXiv 许可,arXiv 2606.04355v1,,本轮未运行；大型数据与权重未下载,部分可观测与分层
+P08-007,Hierarchical Reinforcement Learning with Timed Subgoals,官方部分代码,https://github.com/martius-lab/HiTS,,见原文版权页/arXiv 许可,arXiv 2112.03100v1,,本轮未运行；大型数据与权重未下载,部分可观测与分层
+P08-008,Provable Distributional Value Iteration under Partial Observability,官方部分代码,https://github.com/lpreuettUW/distributional_point_based_value_iteration,,见原文版权页/arXiv 许可,arXiv 2505.06518v3,,本轮未运行；大型数据与权重未下载,部分可观测与分层
+P08-009,On Credit Assignment in Hierarchical Reinforcement Learning,官方部分代码,https://github.com/joeryjoery/HierQ,,见原文版权页/arXiv 许可,arXiv 2203.03292v1,,本轮未运行；大型数据与权重未下载,部分可观测与分层
+P08-010,Multi-agent Hierarchical Reinforcement Learning with Dynamic Termination,待全文核实,,,见原文版权页/arXiv 许可,arXiv 1910.09508v1,,,部分可观测与分层
+P09-001,Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 1706.02275v4,,本轮未运行；大型数据与权重未下载,MADDPG
+P09-002,QMIX: Monotonic Value Function Factorisation for Deep Multi-Agent Reinforcement Learning,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 1803.11485v2,,本轮未运行；大型数据与权重未下载,QMIX
+P09-003,Counterfactual Multi-Agent Policy Gradients,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1705.08926v3,,本轮未运行；大型数据与权重未下载,COMA
+P09-004,"The Surprising Effectiveness of PPO in Cooperative, Multi-Agent Games",官方完整实现,https://github.com/marlbenchmark/on-policy,,见原文版权页/arXiv 许可,arXiv 2103.01955v4,,本轮未运行；大型数据与权重未下载,MAPPO
+P09-005,The StarCraft Multi-Agent Challenge,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1902.04043v5,,本轮未运行；大型数据与权重未下载,SMAC
+P09-006,Multi-Agent Reinforcement Learning is a Sequence Modeling Problem,无代码,,,见原文版权页/arXiv 许可,arXiv 2205.14953v3,,,MARL
+P09-007,PPS-QMIX: Periodically Parameter Sharing for Accelerating Convergence of Multi-Agent Reinforcement Learning,官方部分代码,https://github.com/ColaZhang22/PPS-QMIX,,见原文版权页/arXiv 许可,arXiv 2403.02635v1,,本轮未运行；大型数据与权重未下载,多智能体
+P09-008,A learner-free swarm reaches the explore-exploit equilibrium: A self-organized attractor approximating the reinforcement-learning solution,官方部分代码,https://github.com/galenwilkerson/self-organizing-reinforcement-learning,,见原文版权页/arXiv 许可,arXiv 2610.25113v3,,本轮未运行；大型数据与权重未下载,多智能体
+P09-009,MARFT: Multi-Agent Reinforcement Fine-Tuning,官方部分代码,https://github.com/jwliao-ai/MARFT,,见原文版权页/arXiv 许可,arXiv 2504.16129v6,,本轮未运行；大型数据与权重未下载,多智能体
+P09-010,BenchMARL: Benchmarking Multi-Agent Reinforcement Learning,官方部分代码,https://github.com/facebookresearch/BenchMARL,,见原文版权页/arXiv 许可,arXiv 2312.01472v3,,本轮未运行；大型数据与权重未下载,多智能体
+P10-001,Constrained Policy Optimization,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1705.10528v1,,本轮未运行；大型数据与权重未下载,CPO
+P10-002,Reinforcement Learning with a Corrupted Reward Channel,无代码,,,见原文版权页/arXiv 许可,arXiv 1705.08417v2,,,安全综述
+P10-003,Constrained Upper Confidence Reinforcement Learning,无代码,,,见原文版权页/arXiv 许可,arXiv 2001.09377v1,,,约束RL
+P10-004,"A Review of Safe Reinforcement Learning: Methods, Theory and Applications",官方部分代码,https://github.com/chauncygu/Safe-Reinforcement-Learning-Baselines.git,,见原文版权页/arXiv 许可,arXiv 2205.10330v5,,本轮未运行；大型数据与权重未下载,鲁棒
+P10-005,Trust Region-Based Safe Distributional Reinforcement Learning for Multiple Constraints,官方部分代码,https://github.com/rllab-snu/Safe-Distributional-Actor-Critic,,见原文版权页/arXiv 许可,arXiv 2301.10923v2,,本轮未运行；大型数据与权重未下载,安全与鲁棒
+P10-006,Risk-Sensitive Policy with Distributional Reinforcement Learning,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2212.14743v1,,,安全与鲁棒
+P10-007,Safety-Gymnasium: A Unified Safe Reinforcement Learning Benchmark,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2310.12567v3,,,安全与鲁棒
+P10-008,Reward Constrained Policy Optimization,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1805.11074v3,,本轮未运行；大型数据与权重未下载,安全与鲁棒
+P10-009,Recovery RL: Safe Reinforcement Learning with Learned Recovery Zones,官方完整实现,https://github.com/blandw/recovery_rl,,见原文版权页/arXiv 许可,arXiv 2010.15920v2,,本轮未运行；大型数据与权重未下载,安全与鲁棒
+P10-010,Lyapunov-based Safe Policy Optimization for Continuous Control,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1901.10031v2,,本轮未运行；大型数据与权重未下载,安全与鲁棒
+P11-001,Model-Agnostic Meta-Learning for Fast Adaptation of Deep Networks,官方完整实现,https://github.com/cbfinn/maml,,见原文版权页/arXiv 许可,arXiv 1703.03400v3,,本轮未运行；大型数据与权重未下载,MAML
+P11-002,Efficient Off-Policy Meta-Reinforcement Learning via Probabilistic Context Variables,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 1903.08254v1,,本轮未运行；大型数据与权重未下载,PEARL
+P11-003,Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1703.06907v1,,本轮未运行；大型数据与权重未下载,域随机化
+P11-004,A Generalist Agent,无代码,,,见原文版权页/arXiv 许可,arXiv 2205.06175v3,,,Gato
+P11-005,Solving Rubik's Cube with a Robot Hand,无代码,,,见原文版权页/arXiv 许可,arXiv 1910.07113v1,,,sim2real
+P11-006,Contrastive Learning as Goal-Conditioned Reinforcement Learning,无代码,,,见原文版权页/arXiv 许可,arXiv 2206.07568v2,,,迁移
+P11-007,Sim-to-Real Transfer in Deep Reinforcement Learning for Bipedal Locomotion,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2511.06465v1,,,泛化、迁移与基础模型
+P11-008,Robust Meta-Reinforcement Learning with Curriculum-Based Task Sampling,待全文核实,,,见原文版权页/arXiv 许可,arXiv 2203.16801v1,,,泛化、迁移与基础模型
+P11-009,Illuminating Generalization in Deep Reinforcement Learning through Procedural Level Generation,待全文核实,,,见原文版权页/arXiv 许可,arXiv 1806.10729v5,,,泛化、迁移与基础模型
+P11-010,Leveraging Procedural Generation to Benchmark Reinforcement Learning,官方完整实现,https://github.com/openai/procgen,,见原文版权页/arXiv 许可,arXiv 1912.01588v2,,本轮未运行；大型数据与权重未下载,泛化、迁移与基础模型
+P12-001,Fine-Tuning Language Models from Human Preferences,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1909.08593v2,,本轮未运行；大型数据与权重未下载,RLHF早期
+P12-002,Learning to summarize from human feedback,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 2009.01325v3,,本轮未运行；大型数据与权重未下载,摘要RLHF
+P12-003,Training language models to follow instructions with human feedback,无代码,,,见原文版权页/arXiv 许可,arXiv 2203.02155v1,,,InstructGPT
+P12-004,Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback,官方部分代码,https://github.com/anthropics/hh-rlhf,,见原文版权页/arXiv 许可,arXiv 2204.05862v1,,本轮未运行；大型数据与权重未下载,HH-RLHF
+P12-005,Direct Preference Optimization: Your Language Model is Secretly a Reward Model,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 2305.18290v3,,本轮未运行；大型数据与权重未下载,DPO
+P12-006,DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 2402.03300v3,,本轮未运行；大型数据与权重未下载,GRPO
+P12-007,DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 2501.12948v2,,本轮未运行；大型数据与权重未下载,DeepSeek-R1
+P12-008,Let's Verify Step by Step,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 2305.20050v1,,本轮未运行；大型数据与权重未下载,过程奖励
+P12-009,Training Verifiers to Solve Math Word Problems,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 2110.14168v2,,本轮未运行；大型数据与权重未下载,GSM8K
+P12-010,UltraFeedback: Boosting Language Models with Scaled AI Feedback,官方部分代码,https://github.com/thunlp/UltraFeedback,,见原文版权页/arXiv 许可,arXiv 2310.01377v2,,本轮未运行；大型数据与权重未下载,RLAIF
+P13-001,Dota 2 with Large Scale Deep Reinforcement Learning,无代码,,,见原文版权页/arXiv 许可,arXiv 1912.06680v1,,,OpenAIFive
+P13-002,Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm,无代码,,,见原文版权页/arXiv 许可,arXiv 1712.01815v1,,,AlphaZero
+P13-003,FinRL: A Deep Reinforcement Learning Library for Automated Stock Trading in Quantitative Finance,官方完整实现,https://github.com/AI4Finance-LLC/FinRL-Library,,见原文版权页/arXiv 许可,arXiv 2011.09607v2,,本轮未运行；大型数据与权重未下载,FinRL
+P13-004,Last-Iterate Convergent Policy Gradient Primal-Dual Methods for Constrained MDPs,无代码,,,见原文版权页/arXiv 许可,arXiv 2306.11700v2,,,调度
+P13-005,Accelerating and Scaling MPC-Guided Reinforcement Learning for Humanoid Locomotion and Manipulation,官方部分代码,https://github.com/junhengl/mpc-rl,,见原文版权页/arXiv 许可,arXiv 2606.05687v1,,本轮未运行；大型数据与权重未下载,应用案例
+P13-006,Active Exploration in Bayesian Model-based Reinforcement Learning for Robot Manipulation,官方部分代码,https://github.com/ropertunizar/BayesianActiveExploration,,见原文版权页/arXiv 许可,arXiv 2404.01867v3,,本轮未运行；大型数据与权重未下载,应用案例
+P13-008,Chip Placement with Deep Reinforcement Learning,无代码,,,见原文版权页/arXiv 许可,arXiv 2004.10746v1,,,应用案例
+P13-009,Overcoming Exploration in Reinforcement Learning with Demonstrations,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1709.10089v2,,本轮未运行；大型数据与权重未下载,应用案例
+P13-010,Learning to Drive in a Day,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1807.00412v2,,本轮未运行；大型数据与权重未下载,应用案例
+P14-001,Deep Reinforcement Learning that Matters,官方部分代码,,,见原文版权页/arXiv 许可,arXiv 1709.06560v3,,本轮未运行；大型数据与权重未下载,DeepRLThatMatters
+P14-002,Reproducibility of Benchmarked Deep Reinforcement Learning Tasks for Continuous Control,无代码,,,见原文版权页/arXiv 许可,arXiv 1708.04133v1,,,复现
+P14-003,Deep Reinforcement Learning at the Edge of the Statistical Precipice,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 2108.13264v4,,本轮未运行；大型数据与权重未下载,rliable
+P14-004,Implementation Matters in Deep Policy Gradients: A Case Study on PPO and TRPO,官方完整实现,https://github.com/MadryLab/implementation-matters,,见原文版权页/arXiv 许可,arXiv 2005.12729v1,,本轮未运行；大型数据与权重未下载,ImplementationMatters
+P14-005,What Matters In On-Policy Reinforcement Learning? A Large-Scale Empirical Study,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 2006.05990v1,,本轮未运行；大型数据与权重未下载,WhatMattersOnPolicy
+P14-006,Model Selection in Batch Policy Optimization,无代码,,,见原文版权页/arXiv 许可,arXiv 2112.12320v1,,,评测
+P14-007,Empirical Design in Reinforcement Learning,无代码,,,见原文版权页/arXiv 许可,arXiv 2304.01315v2,,,评测
+P14-008,Reinforcement Learning from Human Feedback: A Statistical Perspective,官方部分代码,https://github.com/Pangpang-Liu/RLHF_demo,,见原文版权页/arXiv 许可,arXiv 2604.02507v1,,本轮未运行；大型数据与权重未下载,评测与复现
+P14-009,Exploring the Effect of Reinforcement Learning on Video Understanding: Insights from SEED-Bench-R1,官方部分代码,https://github.com/TencentARC/SEED-Bench-R1,,见原文版权页/arXiv 许可,arXiv 2503.24376v1,,本轮未运行；大型数据与权重未下载,评测与复现
+P14-010,How Many Random Seeds? Statistical Power Analysis in Deep Reinforcement Learning Experiments,官方部分代码,https://github.com/flowersteam/rl-difference-conditions,,见原文版权页/arXiv 许可,arXiv 1806.08295v2,,本轮未运行；大型数据与权重未下载,评测与复现
+P15-001,CleanRL: High-quality Single-file Implementations of Deep Reinforcement Learning Algorithms,官方完整实现,https://github.com/vwxyzjn/cleanrl,P-03,见原文版权页/arXiv 许可,arXiv 2111.08819v1,L1,本轮未运行；大型数据与权重未下载,CleanRL
+P15-002,RLlib: Abstractions for Distributed Reinforcement Learning,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 1712.09381v4,,本轮未运行；大型数据与权重未下载,RLlib
+P15-003,TorchRL: A data-driven decision-making library for PyTorch,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 2306.00577v2,,本轮未运行；大型数据与权重未下载,TorchRL
+P15-004,Gymnasium: A Standard Interface for Reinforcement Learning Environments,官方完整实现,https://github.com/Farama-Foundation/Gymnasium,P-01,见原文版权页/arXiv 许可,arXiv 2407.17032v4,L1,本轮未运行；大型数据与权重未下载,Gymnasium
+P15-005,Dopamine: A Research Framework for Deep Reinforcement Learning,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 1812.06110v1,,本轮未运行；大型数据与权重未下载,Dopamine
+P15-006,Direct and indirect reinforcement learning,官方完整实现,,,见原文版权页/arXiv 许可,arXiv 1912.10600v2,,本轮未运行；大型数据与权重未下载,Acme
+P15-007,Tianshou: a Highly Modularized Deep Reinforcement Learning Library,官方完整实现,https://github.com/thu-ml/tianshou,P-18,见原文版权页/arXiv 许可,arXiv 2107.14171v3,L1,本轮未运行；大型数据与权重未下载,Tianshou
+P15-008,"Developing, Evaluating and Scaling Learning Agents in Multi-Agent Environments",无代码,,,见原文版权页/arXiv 许可,arXiv 2209.10958v1,,,工程
+P15-009,OpenHail: An Event-Driven Gymnasium Environment for Electric Ride-Hailing Fleet Control,官方部分代码,https://github.com/tommaso-schettini/openhail,,见原文版权页/arXiv 许可,arXiv 2609.30628v1,,本轮未运行；大型数据与权重未下载,软件工程与工具链
+P15-010,Booster Gym: An End-to-End Reinforcement Learning Framework for Humanoid Robot Locomotion,官方部分代码,https://github.com/BoosterRobotics/booster_gym,,见原文版权页/arXiv 许可,arXiv 2506.15132v1,,本轮未运行；大型数据与权重未下载,软件工程与工具链

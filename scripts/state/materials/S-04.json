@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "software",
+ "title": "TorchRL documentation (offline HTML subset)",
+ "files": [
+  {
+   "path": "software_docs/TorchRL_docs_html_en",
+   "url": "https://docs.pytorch.org/rl/stable/",
+   "html_pages": 6,
+   "files": 7,
+   "bytes": 1360899
+  }
+ ],
+ "note": "官方 HTML，6 个页面全部 HTTP 200 且正文 ≥ 400 字符；已按 URL 路径保存页面本体（未镜像站外 CSS/JS），共 7 个文件；页面清单 PAGES_en.txt"
+}

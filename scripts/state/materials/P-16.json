@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "EPyMARL official extended PyMARL (QMIX/COMA/MAPPO etc.)",
+ "files": [
+  {
+   "path": "projects/uoe_agents_epymarl_en",
+   "url": "https://github.com/uoe-agents/epymarl",
+   "commit": "cbc38c09588064eab978501d0f12c2cf58fa7fc2",
+   "files": 127,
+   "archive_sha256": "a9ce2f5c3e5ba775b07ea739206fb5349d9519abcabdc9c4fb6d86dae18aa1ab",
+   "bytes": 3210455
+  }
+ ],
+ "commit": "cbc38c09588064eab978501d0f12c2cf58fa7fc2",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit cbc38c095880：归档 zip 完整性通过，解压 127 个文件（0 个 notebook）；应有文件已见 ['src/run.py', 'README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

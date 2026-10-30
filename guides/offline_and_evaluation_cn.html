@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>离线学习与评测路线</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]]}};</script>
+<script defer src="../_offline_libs/mathjax-3.2.2/es5/tex-mml-chtml.js"></script>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>离线学习与评测路线</h1>
+<h2>离线 RL 与模仿</h2>
+<p>问题：不能交互，只有有限数据。覆盖不足时，任何高回报都可能是外推幻觉。</p>
+<p>阅读顺序：</p>
+<ol><li>Levine 教程 arXiv:2005.01643（<a href="../07_offline_imitation/papers/"><code>07_offline_imitation/papers/</code></a>）。</li><li>BCQ → CQL → IQL → TD3+BC。</li><li>模仿：行为克隆 vs GAIL vs AIRL；逆 RL 不是“有专家轨迹就等于 RL”。</li><li>序列建模：Decision Transformer，须标明它更接近条件行为克隆。</li></ol>
+<p>代码：d3rlpy、CORL、Decision Transformer、Minari（<strong>不下载</strong>轨迹数据）。</p>
+<h2>离策略评价</h2>
+<p>训练策略与行为策略不同。重要性采样方差、拟合 Q 评价偏差、分布外动作要分列。不能用训练时的在线回报冒充实机效果。</p>
+<h2>评测清单（写入 <a href="../evaluation_audit_cn.csv"><code>evaluation_audit_cn.csv</code></a> 的字段）</h2>
+<ul><li>terminated / truncated / bootstrap。</li><li>奖励缩放、观测归一化、统计量冻结。</li><li>随机评测 vs 确定性评测。</li><li>环境步、更新次数、计算时间。</li><li>种子、置信区间、聚合方式。</li><li>模型选择与最终测试分离；超参搜索预算公平。</li><li>离线覆盖与 OOD。</li><li>仿真器漏洞与奖励投机。</li><li>策略更新后的能力/安全退化。</li><li>检查点权重 vs 可恢复训练状态（优化器、回放、归一化统计量、RNG）。</li></ul>
+<h2>基准论文</h2>
+<p>Henderson <em>Deep RL that Matters</em>、Islam 复现性、Engstrom Implementation Matters、Andrychowicz What Matters、Agarwal rliable。均在 <a href="../14_evaluation/papers/"><code>14_evaluation/papers/</code></a>。</p>
+<p>Zoo 配置：<a href="../projects/DLR_RM_rl_baselines3_zoo_en/"><code>projects/DLR_RM_rl_baselines3_zoo_en/</code></a>。文档：CleanRL 超参页、SB3 <code>rl_tips</code>。</p>
+</body></html>

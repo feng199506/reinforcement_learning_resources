@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "books",
+ "title": "Reinforcement Learning: Theory and Algorithms (working draft ABJKS, 2026-06-27)",
+ "files": [
+  {
+   "path": "books/Agarwal_Jiang_Kakade_Sun_Brantley_RL_Theory_ABJKS_en.pdf",
+   "url": "https://rltheorybook.github.io/rltheorybook_ABJKS.pdf",
+   "pages": 227,
+   "sha256": "0841cd0234a93f523ca06c5c6d211fe071d6742d2768764347a7541f76ad09f0",
+   "bytes": 1183518
+  }
+ ],
+ "note": "HTTP 200；%PDF；pypdf 可解析 227 页；名称短语已见"
+}

@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "books",
+ "title": "Algorithms for Decision Making (MIT Press, 2022)",
+ "files": [
+  {
+   "path": "books/Kochenderfer_Wheeler_Wray_Algorithms_Decision_Making_en.pdf",
+   "url": "https://drive.usercontent.google.com/download?id=1drcYW3iJz4wnnCqjuVwQyc5a6eC7i6cu&export=download",
+   "pages": 700,
+   "sha256": "d63d4132230e7b4c6a2420c7bfd4f9ff6dc5713a3db0d94ff707d09f9f4519ad",
+   "bytes": 12110527
+  }
+ ],
+ "note": "HTTP 200；%PDF；pypdf 可解析 700 页；名称短语已见"
+}

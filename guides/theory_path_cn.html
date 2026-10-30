@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>理论研究路线</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]]}};</script>
+<script defer src="../_offline_libs/mathjax-3.2.2/es5/tex-mml-chtml.js"></script>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>理论研究路线</h1>
+<p>面向需要样本复杂度、收敛与函数逼近反例的读者。经典论文在目录中单列为“五年前（经典补充）”。</p>
+<h2>1. MDP 与抽象 DP</h2>
+<ul><li>Sutton 第 3–4 章（直觉）。</li><li>Bertsekas <em>Abstract Dynamic Programming</em> 第 1–2 章：压缩映射、值/策略迭代。</li><li>Bertsekas &amp; Tsitsiklis <em>Neuro-Dynamic Programming</em>：函数逼近下的反例。</li></ul>
+<h2>2. 表格可学习性</h2>
+<p>必读（本库论文）：</p>
+<ul><li>Jin et al. <em>Minimax Regret Bounds for Reinforcement Learning</em>（arXiv:1703.05449）。</li><li>Jin et al. <em>Is Q-learning Provably Efficient</em>（arXiv:1807.03765）。</li></ul>
+<p>配套：Szepesvári 算法书附录中的折扣 MDP。</p>
+<h2>3. 函数逼近与结构</h2>
+<ul><li>Jin et al. 线性函数逼近（arXiv:1907.05388）。</li><li>Du et al. Bilinear Classes（arXiv:2103.10897）。</li><li>Agarwal–Jiang–Kakade–Sun 理论书：<a href="../books/Agarwal_Jiang_Kakade_Sun_Brantley_RL_Theory_ABJKS_en.pdf"><code>books/Agarwal_Jiang_Kakade_Sun_Brantley_RL_Theory_ABJKS_en.pdf</code></a>。</li></ul>
+<h2>4. 策略优化理论</h2>
+<p>Agarwal et al. 策略梯度最优性与分布偏移（arXiv:1908.00261）。不要把 PPO 的裁剪系数当成 TRPO 的 KL 约束证明。</p>
+<h2>5. 探索理论</h2>
+<p>Lattimore–Szepesvári <em>Bandit Algorithms</em> 随机/对抗/贝叶斯三部分，再读 MDP 中的乐观原理（UCRL 类，见 Szepesvári 书）。</p>
+<h2>6. 离线与离策略评价</h2>
+<p>Levine 离线教程（arXiv:2005.01643）之后读 CQL/IQL。离策略评价偏差、覆盖不足与 OOD 动作必须分开写，不能用在线回报代替。</p>
+<h2>7. 随机逼近</h2>
+<p>Recht 导览（arXiv:1806.09460）给出控制视角。严格 SA 证明以 NDP 与 Borkar 传统文献为准；本轮未收录付费墙专著。</p>
+<h2>8. 读法</h2>
+<p>先读定理条件（覆盖、可实现性、Bellman 完备），再看算法。关键理论论文允许无代码。</p>
+</body></html>

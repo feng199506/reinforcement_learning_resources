@@ -1,0 +1,5 @@
+repo: https://github.com/pytorch/rl
+ref: HEAD
+commit: fd8b9d4272c047868a4df363b50ed9ff62579736
+archive: https://codeload.github.com/pytorch/rl/zip/fd8b9d4272c047868a4df363b50ed9ff62579736
+archive_sha256: cadd9eeb78ef1c39a51bca0cc5547967d8502ebe4251ee2d3d353dc7e0cf0a78

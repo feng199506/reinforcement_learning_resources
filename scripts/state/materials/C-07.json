@@ -1,0 +1,92 @@
+{
+ "status": "verified",
+ "set": "courses",
+ "title": "CMU 10-703 Deep Reinforcement Learning (Fall 2018) lecture slides",
+ "files": [
+  {
+   "path": "courses/CMU_10_703_Deep_RL_2018_en/01_lecture3_exactmethods-9-5-2018_en.pdf",
+   "url": "https://www.andrew.cmu.edu/course/10-703/slides/lecture3_exactmethods-9-5-2018.pdf",
+   "pages": 14,
+   "sha256": "08374d514e33f8697e9e3a51b0bc332002dc6bdcb7403e8360a27a20d3bd5a77",
+   "bytes": 653954
+  },
+  {
+   "path": "courses/CMU_10_703_Deep_RL_2018_en/02_lecture4_valuePolicyDP-9-10-2018_en.pdf",
+   "url": "https://www.andrew.cmu.edu/course/10-703/slides/lecture4_valuePolicyDP-9-10-2018.pdf",
+   "pages": 36,
+   "sha256": "60e52b6bf542d97a3c512342b3a6c5999bf5f8bcaaf636e127b7121b45429128",
+   "bytes": 972516
+  },
+  {
+   "path": "courses/CMU_10_703_Deep_RL_2018_en/03_TDshort-9-17-2018_en.pdf",
+   "url": "https://www.andrew.cmu.edu/course/10-703/slides/TDshort-9-17-2018.pdf",
+   "pages": 13,
+   "sha256": "8a15847c5c9744aaf9f14b85c3193f8a5f0d30354d8a31b546aaf36e7f8df8c9",
+   "bytes": 2309148
+  },
+  {
+   "path": "courses/CMU_10_703_Deep_RL_2018_en/04_Lecture_DDPGMultigoalRL_en.pdf",
+   "url": "https://www.andrew.cmu.edu/course/10-703/slides/Lecture_DDPGMultigoalRL.pdf",
+   "pages": 44,
+   "sha256": "6167e451839cdf5ba7b2c9b30e593a76c0c0f7cef17583815bbba32ec2c20ca5",
+   "bytes": 6571779
+  },
+  {
+   "path": "courses/CMU_10_703_Deep_RL_2018_en/05_Lecture_Exploration-10-22-2018_en.pdf",
+   "url": "https://www.andrew.cmu.edu/course/10-703/slides/Lecture_Exploration-10-22-2018.pdf",
+   "pages": 37,
+   "sha256": "dc4fe5afe6d0ac2fc189addb6d6500c58dbd0b5ffda17830db96c6d222deb8f2",
+   "bytes": 1779237
+  },
+  {
+   "path": "courses/CMU_10_703_Deep_RL_2018_en/06_Lecture_exploration_en.pdf",
+   "url": "https://www.andrew.cmu.edu/course/10-703/slides/Lecture_exploration.pdf",
+   "pages": 86,
+   "sha256": "6c7c73fe3a1f538b0b0bdb552df90564f5d8113668b04a4bced9546a6fbe2f36",
+   "bytes": 11945138
+  },
+  {
+   "path": "courses/CMU_10_703_Deep_RL_2018_en/07_Lecture_Brains_RL_en.pdf",
+   "url": "https://www.andrew.cmu.edu/course/10-703/slides/Lecture_Brains_RL.pdf",
+   "pages": 20,
+   "sha256": "980997917246e263443c55612becd76f49073ff182e4f3a97455704e1663d399",
+   "bytes": 3655712
+  },
+  {
+   "path": "courses/CMU_10_703_Deep_RL_2018_en/08_Lecture_modelbasedRL_en.pdf",
+   "url": "https://www.andrew.cmu.edu/course/10-703/slides/Lecture_modelbasedRL.pdf",
+   "pages": 65,
+   "sha256": "799130de1c90de89e647c174f8162b16d42173e1b1cd7454fd4d0ca87dd7fb4e",
+   "bytes": 4001111
+  },
+  {
+   "path": "courses/CMU_10_703_Deep_RL_2018_en/09_Lecture_Imitation_supervised-Nov-5-2018_en.pdf",
+   "url": "https://www.andrew.cmu.edu/course/10-703/slides/Lecture_Imitation_supervised-Nov-5-2018.pdf",
+   "pages": 49,
+   "sha256": "dba0c91c0d317bb88da831a1c9506ded5aea08b0021eec70bf00b88e492012a4",
+   "bytes": 7006556
+  },
+  {
+   "path": "courses/CMU_10_703_Deep_RL_2018_en/10_Lecture_IRL_GAIL_en.pdf",
+   "url": "https://www.andrew.cmu.edu/course/10-703/slides/Lecture_IRL_GAIL.pdf",
+   "pages": 56,
+   "sha256": "004a7489770f527b784f9027d4460660a8742da9274ca59e2cb48b33ca5ad932",
+   "bytes": 11788626
+  },
+  {
+   "path": "courses/CMU_10_703_Deep_RL_2018_en/11_HER_Recitation_en.pdf",
+   "url": "https://www.andrew.cmu.edu/course/10-703/slides/HER_Recitation.pdf",
+   "pages": 13,
+   "sha256": "4d2361d6cb179fec6987894d5f6bed333713f5097c3f244011f534983d63a377",
+   "bytes": 251516
+  },
+  {
+   "path": "courses/CMU_10_703_Deep_RL_2018_en/12_Lecture_sim2realmaxentRL_en.pdf",
+   "url": "https://www.andrew.cmu.edu/course/10-703/slides/Lecture_sim2realmaxentRL.pdf",
+   "pages": 54,
+   "sha256": "73c34dc40de328c999344f994771f605451ba2276c2de0024e8af28bc9bd89fd",
+   "bytes": 4371937
+  }
+ ],
+ "note": "12 个 PDF 全部 HTTP 200 且可解析，合计 487 页；文件链接取自官方索引页 https://www.andrew.cmu.edu/course/10-703/（该页列出的全部匹配文件均已下载）"
+}

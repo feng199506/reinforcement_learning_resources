@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "d3rlpy official offline RL algorithms",
+ "files": [
+  {
+   "path": "projects/takuseno_d3rlpy_en",
+   "url": "https://github.com/takuseno/d3rlpy",
+   "commit": "38c34b6f99fde82875e2ad81d1ba1f7a7da34137",
+   "files": 340,
+   "archive_sha256": "0e35e12ab372986c6157957d27c07dc954a4f3c33b4a4989e6ce414bb905bbd8",
+   "bytes": 3675320
+  }
+ ],
+ "commit": "38c34b6f99fde82875e2ad81d1ba1f7a7da34137",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit 38c34b6f99fd：归档 zip 完整性通过，解压 340 个文件（4 个 notebook）；应有文件已见 ['d3rlpy/algos/qlearning/cql.py', 'README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

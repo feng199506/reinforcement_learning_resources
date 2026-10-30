@@ -1,0 +1,4 @@
+https://openspiel.readthedocs.io/en/latest/
+https://openspiel.readthedocs.io/en/latest/api_reference.html
+https://openspiel.readthedocs.io/en/latest/install.html
+https://openspiel.readthedocs.io/en/latest/concepts.html

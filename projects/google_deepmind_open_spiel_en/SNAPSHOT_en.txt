@@ -1,0 +1,5 @@
+repo: https://github.com/google-deepmind/open_spiel
+ref: HEAD
+commit: 1684979a2dde324a5e993311e56fa3b59efc221d
+archive: https://codeload.github.com/google-deepmind/open_spiel/zip/1684979a2dde324a5e993311e56fa3b59efc221d
+archive_sha256: e1afd8c7a38cdc8c2bca337412d267260c6e739394fa6db7313afeaccf53a247

@@ -1,0 +1,5 @@
+repo: https://github.com/huggingface/trl
+ref: HEAD
+commit: 775de52a5805cbcd427556bde96677b946457ada
+archive: https://codeload.github.com/huggingface/trl/zip/775de52a5805cbcd427556bde96677b946457ada
+archive_sha256: 5e10f1d71192444e7814c32b0c3eb8f2f7027bd8e08bf4f2ab75baec248ab154

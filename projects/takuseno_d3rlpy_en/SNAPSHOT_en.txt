@@ -1,0 +1,5 @@
+repo: https://github.com/takuseno/d3rlpy
+ref: HEAD
+commit: 38c34b6f99fde82875e2ad81d1ba1f7a7da34137
+archive: https://codeload.github.com/takuseno/d3rlpy/zip/38c34b6f99fde82875e2ad81d1ba1f7a7da34137
+archive_sha256: 0e35e12ab372986c6157957d27c07dc954a4f3c33b4a4989e6ce414bb905bbd8

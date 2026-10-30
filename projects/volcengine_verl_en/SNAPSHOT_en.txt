@@ -1,0 +1,5 @@
+repo: https://github.com/volcengine/verl
+ref: HEAD
+commit: a08ea02a784d7d4982b1d81df36d188a476192bb
+archive: https://codeload.github.com/volcengine/verl/zip/a08ea02a784d7d4982b1d81df36d188a476192bb
+archive_sha256: a7fae030164ff705cdb4cbafd579fefb05be503aa90e25bb627f12bb866cbf97

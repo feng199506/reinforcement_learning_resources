@@ -1,0 +1,5 @@
+repo: https://github.com/danijar/dreamerv3
+ref: HEAD
+commit: e01491fad6434b2245a3b8ca201dd7faedcc458c
+archive: https://codeload.github.com/danijar/dreamerv3/zip/e01491fad6434b2245a3b8ca201dd7faedcc458c
+archive_sha256: f704884afb2cb642e0153df8af741e230fe220f52174fcf80245413141541f27

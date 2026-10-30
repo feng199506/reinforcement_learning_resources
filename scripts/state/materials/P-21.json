@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "HighwayEnv official traffic decision-making environments",
+ "files": [
+  {
+   "path": "projects/Farama_HighwayEnv_en",
+   "url": "https://github.com/Farama-Foundation/HighwayEnv",
+   "commit": "37c84a34cadcbfc17d61acf5196a89c380a56943",
+   "files": 194,
+   "archive_sha256": "809ce82566f061220c4d3a3aabebf5566258714e16751f6ca05d3a183063d3ee",
+   "bytes": 28494160
+  }
+ ],
+ "commit": "37c84a34cadcbfc17d61acf5196a89c380a56943",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit 37c84a34cadc：归档 zip 完整性通过，解压 194 个文件（5 个 notebook）；应有文件已见 ['highway_env/envs/highway_env.py', 'README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

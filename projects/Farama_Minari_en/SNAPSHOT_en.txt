@@ -1,0 +1,5 @@
+repo: https://github.com/Farama-Foundation/Minari
+ref: HEAD
+commit: d88d29db69a84375274ce8c266e0e5d5f3a77a3f
+archive: https://codeload.github.com/Farama-Foundation/Minari/zip/d88d29db69a84375274ce8c266e0e5d5f3a77a3f
+archive_sha256: 23097b00f4d07032fdec39f790e4262f82715a3dc7e5119fae27ed8e018f37c6

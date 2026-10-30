@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "CleanRL official single-file PPO/DQN/SAC implementations",
+ "files": [
+  {
+   "path": "projects/vwxyzjn_cleanrl_en",
+   "url": "https://github.com/vwxyzjn/cleanrl",
+   "commit": "fe8d8a03c41a7ef5b523e2e354bd01c363e786bb",
+   "files": 403,
+   "archive_sha256": "fac4d9c67aa2615cefc5999c88b4095813b26c01b80811e60152f8a5854f7e8f",
+   "bytes": 80146736
+  }
+ ],
+ "commit": "fe8d8a03c41a7ef5b523e2e354bd01c363e786bb",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit fe8d8a03c41a：归档 zip 完整性通过，解压 403 个文件（1 个 notebook）；应有文件已见 ['cleanrl/ppo.py', 'cleanrl/dqn.py', 'cleanrl/sac_continuous_action.py', 'README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

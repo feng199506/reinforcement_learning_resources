@@ -1,0 +1,9 @@
+﻿编号,资料类型,标题,状态,说明,地址
+P05-007,论文/综述/教程,"On the Convergence and Stability of Upside-Down Reinforcement Learning, Goal-Conditioned Supervised Learning, and Online Decision Transformers",fail,未找到参考文献节（可能不完整）,https://arxiv.org/pdf/2502.05672
+P13-007,论文/综述/教程,The StarCraft Multi-Agent Challenge,dup_elsewhere,已由 09 群收录，本群不重复计数,https://arxiv.org/pdf/1902.04043
+B-06,教科书/专著/参考书,"Multi-Agent Reinforcement Learning: Foundations and Modern Approaches (MIT Press, 2024)",failed,HTTP 403,https://www.marl-book.com/download/marl-book.pdf
+B-16,教科书/专著/参考书,"Stochastic Optimal Control: The Discrete-Time Case (Academic Press, 1978 / Athena reprint)",failed,前 12 页未见名称短语“Stochastic Optimal Control”,https://web.mit.edu/dimitrib/www/SOC_1978.pdf
+S-12,官方软件文档,Isaac Lab documentation (offline HTML subset),failed,4 个页面正文 < 400 字符，如 https://isaac-sim.github.io/IsaacLab/main/source/setup/installation/index.html,https://isaac-sim.github.io/IsaacLab/main/index.html
+P-14,参考项目/实验,Safety-Gymnasium official constrained RL environments,failed,归档 551 MiB 超过上限,https://github.com/PKU-Alignment/safety-gymnasium
+P-17,参考项目/实验,CityLearn official energy/demand-response RL environment,failed,归档 272 MiB 超过上限,https://github.com/intelligent-environments-lab/CityLearn
+P-22,参考项目/实验,OpenAI Spinning Up official educational RL implementations,failed,缺少应有文件/目录：['README.md'],https://github.com/openai/spinningup

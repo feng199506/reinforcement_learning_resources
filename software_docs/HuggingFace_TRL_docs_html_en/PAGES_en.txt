@@ -1,0 +1,6 @@
+https://huggingface.co/docs/trl/en/index
+https://huggingface.co/docs/trl/en/sft_trainer
+https://huggingface.co/docs/trl/en/dpo_trainer
+https://huggingface.co/docs/trl/en/ppo_trainer
+https://huggingface.co/docs/trl/en/grpo_trainer
+https://huggingface.co/docs/trl/en/reward_trainer

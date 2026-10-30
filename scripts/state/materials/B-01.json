@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "books",
+ "title": "Reinforcement Learning: An Introduction (2nd edition, 2020 printing)",
+ "files": [
+  {
+   "path": "books/Sutton_Barto_RL_Introduction_2ed_2020_en.pdf",
+   "url": "http://incompleteideas.net/book/RLbook2020.pdf",
+   "pages": 548,
+   "sha256": "2dd0d71d9ee883fbeb99f9b888c65ac3255fae2512203d11b18e838befffe9a6",
+   "bytes": 73129769
+  }
+ ],
+ "note": "HTTP 200；%PDF；pypdf 可解析 548 页；名称短语已见"
+}

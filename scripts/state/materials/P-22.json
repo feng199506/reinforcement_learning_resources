@@ -1,0 +1,6 @@
+{
+ "status": "failed",
+ "set": "projects",
+ "note": "缺少应有文件/目录：['README.md']",
+ "title": "OpenAI Spinning Up official educational RL implementations"
+}

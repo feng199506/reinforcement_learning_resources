@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "CORL official offline RL single-file implementations",
+ "files": [
+  {
+   "path": "projects/tinkoff_ai_CORL_en",
+   "url": "https://github.com/tinkoff-ai/CORL",
+   "commit": "6afec90484bbf47dee05fdf525e26a3ebe028e9b",
+   "files": 488,
+   "archive_sha256": "03307dd17de452572b367f502c5eb398a8fb805f350724f783778f37aa44c83e",
+   "bytes": 3162463
+  }
+ ],
+ "commit": "6afec90484bbf47dee05fdf525e26a3ebe028e9b",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit 6afec90484bb：归档 zip 完整性通过，解压 488 个文件（0 个 notebook）；应有文件已见 ['README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

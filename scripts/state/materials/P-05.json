@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "OpenSpiel official multi-agent / game RL framework",
+ "files": [
+  {
+   "path": "projects/google_deepmind_open_spiel_en",
+   "url": "https://github.com/google-deepmind/open_spiel",
+   "commit": "1684979a2dde324a5e993311e56fa3b59efc221d",
+   "files": 3514,
+   "archive_sha256": "e1afd8c7a38cdc8c2bca337412d267260c6e739394fa6db7313afeaccf53a247",
+   "bytes": 12241076
+  }
+ ],
+ "commit": "1684979a2dde324a5e993311e56fa3b59efc221d",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit 1684979a2dde：归档 zip 完整性通过，解压 3514 个文件（12 个 notebook）；应有文件已见 ['README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

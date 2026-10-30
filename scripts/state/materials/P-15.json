@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "MiniGrid official partial-observability gridworld environments",
+ "files": [
+  {
+   "path": "projects/Farama_Minigrid_en",
+   "url": "https://github.com/Farama-Foundation/Minigrid",
+   "commit": "7f5853792ea7f04f75614661006d87fcf949f26d",
+   "files": 291,
+   "archive_sha256": "4c3a1646bdf45b54a8e9982807d88c2e6ab0ffb34d4138fa62edeb12b20b8a16",
+   "bytes": 10484733
+  }
+ ],
+ "commit": "7f5853792ea7f04f75614661006d87fcf949f26d",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit 7f5853792ea7：归档 zip 完整性通过，解压 291 个文件（0 个 notebook）；应有文件已见 ['minigrid/minigrid_env.py', 'README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

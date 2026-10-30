@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "veRL: Volcano Engine Reinforcement Learning for LLMs",
+ "files": [
+  {
+   "path": "projects/volcengine_verl_en",
+   "url": "https://github.com/volcengine/verl",
+   "commit": "a08ea02a784d7d4982b1d81df36d188a476192bb",
+   "files": 1302,
+   "archive_sha256": "a7fae030164ff705cdb4cbafd579fefb05be503aa90e25bb627f12bb866cbf97",
+   "bytes": 4256269
+  }
+ ],
+ "commit": "a08ea02a784d7d4982b1d81df36d188a476192bb",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit a08ea02a784d：归档 zip 完整性通过，解压 1302 个文件（2 个 notebook）；应有文件已见 ['README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

@@ -1,0 +1,5 @@
+repo: https://github.com/Farama-Foundation/PettingZoo
+ref: HEAD
+commit: b0fe02166d2106f8fcb6a6e0ca8125765699bdba
+archive: https://codeload.github.com/Farama-Foundation/PettingZoo/zip/b0fe02166d2106f8fcb6a6e0ca8125765699bdba
+archive_sha256: 7eb7fddcb3ee8516fa82211e0240f26108246d6627b2fa770449b12417fd80d2

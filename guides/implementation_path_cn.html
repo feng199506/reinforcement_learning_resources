@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>算法实现路线</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]]}};</script>
+<script defer src="../_offline_libs/mathjax-3.2.2/es5/tex-mml-chtml.js"></script>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>算法实现路线</h1>
+<p>本轮代码等级只到 <strong>L0/L1</strong>（已下载并静态见到入口）。不声称运行或复现通过。</p>
+<h2>环境接口</h2>
+<p>先读 Gymnasium 文档 <a href="../software_docs/Gymnasium_docs_html_en/gymnasium.farama.org/index.html"><code>software_docs/Gymnasium_docs_html_en/</code></a>：</p>
+<ul><li><code>reset</code> / <code>step</code> 的五元组。</li><li><strong>terminated</strong>（任务结束）与 <strong>truncated</strong>（时间截断）必须分开；bootstrap 只能在 truncated 时对下一状态做，terminated 时目标为 0。</li><li>向量环境与 wrappers。</li></ul>
+<p>代码：<a href="../projects/Farama_Gymnasium_en/"><code>projects/Farama_Gymnasium_en/</code></a>。</p>
+<h2>三条实现对照</h2>
+<p>同一算法看三种风格，避免只抄一种库的默认超参：</p>
+<ol><li><strong>教学</strong>：Spinning Up HTML 教程 <a href="../courses/OpenAI_SpinningUp_DeepRL_html_en/spinningup.openai.com/en/latest/index.html"><code>courses/OpenAI_SpinningUp_DeepRL_html_en/</code></a>（官方 git 仓库本轮因缺少根目录 README 未计入 <a href="../projects/"><code>projects/</code></a>，见 <a href="../download_failures_cn.csv"><code>download_failures_cn.csv</code></a> P-22）。</li><li><strong>单文件</strong>：CleanRL <a href="../projects/vwxyzjn_cleanrl_en/"><code>projects/vwxyzjn_cleanrl_en/</code></a>（<code>ppo.py</code>、<code>dqn.py</code>、<code>sac_continuous_action.py</code>）。</li><li><strong>模块化</strong>：SB3 <a href="../projects/DLR_RM_stable_baselines3_en/"><code>projects/DLR_RM_stable_baselines3_en/</code></a>、Tianshou <a href="../projects/thu_ml_tianshou_en/"><code>projects/thu_ml_tianshou_en/</code></a>。</li></ol>
+<p>连续控制再加 TorchRL 采集器：<a href="../projects/pytorch_rl_TorchRL_en/"><code>projects/pytorch_rl_TorchRL_en/</code></a>。</p>
+<h2>必须静态核对的入口</h2>
+<p>每个项目根目录有 <code>SNAPSHOT_en.txt</code>（commit）。另查：</p>
+<ul><li>训练脚本：<code>train.py</code> / <code>cleanrl/*.py</code> / <code>spinup/algos/...</code></li><li>评测：<code>enjoy.py</code>、<code>eval</code> 选项、确定性动作开关。</li><li>配置：SB3-Zoo <a href="../projects/DLR_RM_rl_baselines3_zoo_en/hyperparams/"><code>projects/DLR_RM_rl_baselines3_zoo_en/hyperparams/</code></a>。</li><li>依赖：<code>pyproject.toml</code> / <code>requirements.txt</code> / <code>setup.py</code>。</li><li>许可证文件。</li></ul>
+<h2>实现陷阱（对应评测表）</h2>
+<ul><li>奖励缩放、观测归一化：统计量必须只在训练集或滚动窗口上更新，评测时冻结。</li><li>探索噪声在评测时应关闭或单独报告。</li><li>记录环境步数、梯度更新次数与墙钟时间，不要只报 episode return。</li><li>多种子；聚合用中位数与区间（见 rliable 论文），禁止把单次最高回报当优越性。</li></ul>
+<h2>下一步（本轮不做）</h2>
+<p>隔离环境按 SNAPSHOT 安装依赖，先在 <code>CartPole</code> / <code>Pendulum</code> 跑通一步，再谈 MuJoCo。不把上游 README 曲线当作本机复现。</p>
+</body></html>

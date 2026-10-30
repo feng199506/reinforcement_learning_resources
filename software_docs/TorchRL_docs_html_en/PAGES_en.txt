@@ -1,0 +1,6 @@
+https://docs.pytorch.org/rl/stable/
+https://docs.pytorch.org/rl/stable/tutorials/coding_dqn.html
+https://docs.pytorch.org/rl/stable/tutorials/coding_ppo.html
+https://docs.pytorch.org/rl/stable/reference/collectors.html
+https://docs.pytorch.org/rl/stable/reference/data.html
+https://docs.pytorch.org/rl/stable/reference/envs.html

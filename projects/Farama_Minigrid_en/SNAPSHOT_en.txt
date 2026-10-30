@@ -1,0 +1,5 @@
+repo: https://github.com/Farama-Foundation/Minigrid
+ref: HEAD
+commit: 7f5853792ea7f04f75614661006d87fcf949f26d
+archive: https://codeload.github.com/Farama-Foundation/Minigrid/zip/7f5853792ea7f04f75614661006d87fcf949f26d
+archive_sha256: 4c3a1646bdf45b54a8e9982807d88c2e6ab0ffb34d4138fa62edeb12b20b8a16

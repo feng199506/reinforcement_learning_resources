@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "Brax official JAX rigid-body physics and RL environments",
+ "files": [
+  {
+   "path": "projects/google_brax_en",
+   "url": "https://github.com/google/brax",
+   "commit": "c8605294264a7b7546268adbb4beabc9eb624000",
+   "files": 282,
+   "archive_sha256": "b87184e813b5a60393e414671840dc20c57dfeee16dc88ba75cffcc47fee97f0",
+   "bytes": 124362099
+  }
+ ],
+ "commit": "c8605294264a7b7546268adbb4beabc9eb624000",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit c8605294264a：归档 zip 完整性通过，解压 282 个文件（4 个 notebook）；应有文件已见 ['brax/envs/__init__.py', 'README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

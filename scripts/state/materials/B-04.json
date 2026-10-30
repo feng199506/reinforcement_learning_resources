@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "books",
+ "title": "Bandit Algorithms (online edition, typo-corrected; CUP 2020)",
+ "files": [
+  {
+   "path": "books/Lattimore_Szepesvari_Bandit_Algorithms_en.pdf",
+   "url": "https://tor-lattimore.com/downloads/book/book.pdf",
+   "pages": 597,
+   "sha256": "b71acb03034d73ca0ea148c9c6a91c34a88dd8c7ab8471af38035b34399bad9f",
+   "bytes": 5400750
+  }
+ ],
+ "note": "HTTP 200；%PDF；pypdf 可解析 597 页；名称短语已见"
+}

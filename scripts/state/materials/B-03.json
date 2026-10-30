@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "books",
+ "title": "Algorithms for Reinforcement Learning (Morgan & Claypool draft, last update 2019-03-12)",
+ "files": [
+  {
+   "path": "books/Szepesvari_Algorithms_for_RL_en.pdf",
+   "url": "https://sites.ualberta.ca/~szepesva/papers/RLAlgsInMDPs.pdf",
+   "pages": 98,
+   "sha256": "4bcf9a8d635e8bfff086e0a7f59934cfd7a6412c22aef732c235c14f80f99685",
+   "bytes": 1623436
+  }
+ ],
+ "note": "HTTP 200；%PDF；pypdf 可解析 98 页；名称短语已见"
+}

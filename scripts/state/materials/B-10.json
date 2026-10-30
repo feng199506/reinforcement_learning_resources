@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "books",
+ "title": "Lessons from AlphaZero for Optimal, Model Predictive, and Adaptive Control (Athena Scientific, 2022)",
+ "files": [
+  {
+   "path": "books/Bertsekas_Lessons_from_AlphaZero_en.pdf",
+   "url": "https://web.mit.edu/dimitrib/www/LessonsfromAlphazero.pdf",
+   "pages": 242,
+   "sha256": "4f0caf8bac235c983a117a6adffd0ac93eed59a7a31ddb8481a5ac063f8c28f1",
+   "bytes": 15839011
+  }
+ ],
+ "note": "HTTP 200；%PDF；pypdf 可解析 242 页；名称短语已见"
+}

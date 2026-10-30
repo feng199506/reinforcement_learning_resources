@@ -1,0 +1,5 @@
+repo: https://github.com/Farama-Foundation/HighwayEnv
+ref: HEAD
+commit: 37c84a34cadcbfc17d61acf5196a89c380a56943
+archive: https://codeload.github.com/Farama-Foundation/HighwayEnv/zip/37c84a34cadcbfc17d61acf5196a89c380a56943
+archive_sha256: 809ce82566f061220c4d3a3aabebf5566258714e16751f6ca05d3a183063d3ee

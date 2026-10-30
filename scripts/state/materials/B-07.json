@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "books",
+ "title": "Sequential Decision Analytics and Modeling: Modeling with Python (2nd edition)",
+ "files": [
+  {
+   "path": "books/Powell_Sequential_Decision_Analytics_Modeling_2ed_en.pdf",
+   "url": "https://warrenpowell.org/assets/papers/sdam-2nd-edition.pdf",
+   "pages": 339,
+   "sha256": "0affd9d030725d74e2cc0a2837a08df2798775e9fbc460c4713c1354b07d4ec4",
+   "bytes": 5554571
+  }
+ ],
+ "note": "HTTP 200；%PDF；pypdf 可解析 339 页；名称短语已见"
+}

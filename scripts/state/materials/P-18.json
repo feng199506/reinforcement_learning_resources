@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "Tianshou official PyTorch RL library",
+ "files": [
+  {
+   "path": "projects/thu_ml_tianshou_en",
+   "url": "https://github.com/thu-ml/tianshou",
+   "commit": "f2402056b03acafeedf2518a5088db55add004ab",
+   "files": 328,
+   "archive_sha256": "dfc3e4ef3b1f2359b6a7d7b0939f93086bd88c994604371010df5dd595b8ba8a",
+   "bytes": 2989822
+  }
+ ],
+ "commit": "f2402056b03acafeedf2518a5088db55add004ab",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit f2402056b03a：归档 zip 完整性通过，解压 328 个文件（6 个 notebook）；应有文件已见 ['README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

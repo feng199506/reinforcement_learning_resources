@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "software",
+ "title": "Stable-Baselines3 documentation (offline HTML subset)",
+ "files": [
+  {
+   "path": "software_docs/Stable_Baselines3_docs_html_en",
+   "url": "https://stable-baselines3.readthedocs.io/en/master/",
+   "html_pages": 8,
+   "files": 9,
+   "bytes": 498257
+  }
+ ],
+ "note": "官方 HTML，8 个页面全部 HTTP 200 且正文 ≥ 400 字符；已按 URL 路径保存页面本体（未镜像站外 CSS/JS），共 9 个文件；页面清单 PAGES_en.txt"
+}

@@ -1,0 +1,9 @@
+https://huggingface.co/learn/deep-rl-course/en/unit0/introduction
+https://huggingface.co/learn/deep-rl-course/en/unit1/introduction
+https://huggingface.co/learn/deep-rl-course/en/unit2/introduction
+https://huggingface.co/learn/deep-rl-course/en/unit3/introduction
+https://huggingface.co/learn/deep-rl-course/en/unit4/introduction
+https://huggingface.co/learn/deep-rl-course/en/unit5/introduction
+https://huggingface.co/learn/deep-rl-course/en/unit6/introduction
+https://huggingface.co/learn/deep-rl-course/en/unit7/introduction
+https://huggingface.co/learn/deep-rl-course/en/unit8/introduction

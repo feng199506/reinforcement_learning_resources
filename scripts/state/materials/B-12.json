@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "books",
+ "title": "Neuro-Dynamic Programming (Athena Scientific, 1996)",
+ "files": [
+  {
+   "path": "books/Bertsekas_Tsitsiklis_Neuro_Dynamic_Programming_en.pdf",
+   "url": "https://web.mit.edu/dimitrib/www/NDP.pdf",
+   "pages": 506,
+   "sha256": "976fb3d960a5cc004c8d8917abbd5a2bded80848c02bade2037fcf2380789335",
+   "bytes": 7921628
+  }
+ ],
+ "note": "HTTP 200；%PDF；pypdf 可解析 506 页；名称短语已见"
+}

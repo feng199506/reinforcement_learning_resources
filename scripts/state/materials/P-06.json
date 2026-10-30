@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "PettingZoo official multi-agent environment API",
+ "files": [
+  {
+   "path": "projects/Farama_PettingZoo_en",
+   "url": "https://github.com/Farama-Foundation/PettingZoo",
+   "commit": "b0fe02166d2106f8fcb6a6e0ca8125765699bdba",
+   "files": 671,
+   "archive_sha256": "7eb7fddcb3ee8516fa82211e0240f26108246d6627b2fa770449b12417fd80d2",
+   "bytes": 35776889
+  }
+ ],
+ "commit": "b0fe02166d2106f8fcb6a6e0ca8125765699bdba",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit b0fe02166d21：归档 zip 完整性通过，解压 671 个文件（0 个 notebook）；应有文件已见 ['pettingzoo/utils/env.py', 'README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

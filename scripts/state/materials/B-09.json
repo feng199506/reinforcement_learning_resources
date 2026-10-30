@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "books",
+ "title": "Abstract Dynamic Programming (3rd Edition, Athena Scientific, 2022)",
+ "files": [
+  {
+   "path": "books/Bertsekas_Abstract_Dynamic_Programming_3ed_en.pdf",
+   "url": "https://www.mit.edu/~dimitrib/AbstractDP_ED3_TEXT_2021.pdf",
+   "pages": 422,
+   "sha256": "acbe5987a451ac82ba68851f4830ccee22ba594951c71a4b6fcea72ff37c455f",
+   "bytes": 8512193
+  }
+ ],
+ "note": "HTTP 200；%PDF；pypdf 可解析 422 页；名称短语已见"
+}

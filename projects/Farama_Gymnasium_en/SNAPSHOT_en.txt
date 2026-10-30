@@ -1,0 +1,5 @@
+repo: https://github.com/Farama-Foundation/Gymnasium
+ref: HEAD
+commit: c08564bb8edd741ff20430d3b500b2e76966772d
+archive: https://codeload.github.com/Farama-Foundation/Gymnasium/zip/c08564bb8edd741ff20430d3b500b2e76966772d
+archive_sha256: 38b475f73033e7a2a683be171539108341d35ed4ce5f5cce5ebcec7db8afff61

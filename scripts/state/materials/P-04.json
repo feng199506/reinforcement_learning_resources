@@ -1,0 +1,20 @@
+{
+ "status": "verified",
+ "set": "projects",
+ "title": "TorchRL official PyTorch RL library",
+ "files": [
+  {
+   "path": "projects/pytorch_rl_TorchRL_en",
+   "url": "https://github.com/pytorch/rl",
+   "commit": "fd8b9d4272c047868a4df363b50ed9ff62579736",
+   "files": 1511,
+   "archive_sha256": "cadd9eeb78ef1c39a51bca0cc5547967d8502ebe4251ee2d3d353dc7e0cf0a78",
+   "bytes": 12627360
+  }
+ ],
+ "commit": "fd8b9d4272c047868a4df363b50ed9ff62579736",
+ "license_files": [
+  "LICENSE"
+ ],
+ "note": "官方仓库快照 commit fd8b9d4272c0：归档 zip 完整性通过，解压 1511 个文件（0 个 notebook）；应有文件已见 ['torchrl/envs/common.py', 'README.md']；许可证文件 ['LICENSE']；未发现 LFS 指针文件"
+}

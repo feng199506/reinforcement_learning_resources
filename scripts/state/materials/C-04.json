@@ -1,0 +1,176 @@
+{
+ "status": "verified",
+ "set": "courses",
+ "title": "University of Waterloo CS885 Reinforcement Learning (Winter 2025) lecture slides",
+ "files": [
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/01_cs885-lecture1a_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture1a.pdf",
+   "pages": 14,
+   "sha256": "e511481e19ba5a62d1762846b22f5648435d534672546a8afe10c5d8ff934ae9",
+   "bytes": 2318919
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/02_cs885-lecture1b_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture1b.pdf",
+   "pages": 16,
+   "sha256": "74fca24e516fdd359b08c4a84b0415523429564f90638ed54c8597344bfbda3c",
+   "bytes": 400286
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/03_cs885-lecture2a_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture2a.pdf",
+   "pages": 18,
+   "sha256": "7613afedc81911f78ff91bca82ac91d1fe14d2d493f47dd5ba9fcb8e7b79ffb0",
+   "bytes": 356496
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/04_cs885-lecture2b_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture2b.pdf",
+   "pages": 12,
+   "sha256": "0dab006abd1a179cbd83d08eb0a04678e6f9e85ddc6c570c92a5f2cea8c34b6f",
+   "bytes": 245685
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/05_cs885-lecture3a_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture3a.pdf",
+   "pages": 13,
+   "sha256": "db9a19a9cffa815e3b3d69ac991428a4096352162dd0eec7bdb244e604e375fc",
+   "bytes": 330486
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/06_cs885-lecture3b_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture3b.pdf",
+   "pages": 23,
+   "sha256": "31b31d3106e53a2b8f6222441d0cb98877fe182069c9c5d52c5d637da3f40773",
+   "bytes": 701324
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/07_cs885-lecture4a_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture4a.pdf",
+   "pages": 21,
+   "sha256": "6fea8c038139c1b3d7eafb27c5b1d0dc671f7b62658662c700eb53e39f61044e",
+   "bytes": 606301
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/08_cs885-lecture4b_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture4b.pdf",
+   "pages": 15,
+   "sha256": "30f3fc192e324ddad0df96ff27a3c4c89b71041a55fe6dde1cf98d47c4169900",
+   "bytes": 344501
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/09_cs885-lecture5a_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture5a.pdf",
+   "pages": 23,
+   "sha256": "56cd280ed1240dd817cb439368d5ff5e83d0df9705aad2bc432b0fd67feeb743",
+   "bytes": 1824693
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/10_cs885-lecture5b_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture5b.pdf",
+   "pages": 24,
+   "sha256": "af463b910768748085a5f129e6a8a96aecf5ac28f8179dfb9a58b956bde6972b",
+   "bytes": 918933
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/11_cs885-lecture6a_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture6a.pdf",
+   "pages": 21,
+   "sha256": "df8ac23e01d6a9d0ed544997d1471ec739637dfda4225d0c79b9bb5c7a3f3868",
+   "bytes": 1177518
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/12_cs885-lecture6b_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture6b.pdf",
+   "pages": 22,
+   "sha256": "caa07758aa85ee15d1f6ebdf0f7da770fdb645c5fa74ed198a1dae940df58add",
+   "bytes": 475851
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/13_cs885-lecture7_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture7.pdf",
+   "pages": 14,
+   "sha256": "26290c330b3d0caf2e403bb49ec4a8b9c5411602b94c042ad7bc3c66ed4129ad",
+   "bytes": 665136
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/14_cs885-lecture8a_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture8a.pdf",
+   "pages": 24,
+   "sha256": "3697170d6c85afaa45f8a6fb157cf771beccb31c24c4ae6519cf83809700e5d1",
+   "bytes": 592484
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/15_cs885-lecture8b_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture8b.pdf",
+   "pages": 18,
+   "sha256": "56834f0526e9b496e7db60c6a76086c1ddba705967d050480bf3fa19c360fdc6",
+   "bytes": 808014
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/16_cs885-lecture9_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture9.pdf",
+   "pages": 15,
+   "sha256": "be54f0eeab174eeee34156935392df9e5234eced03d478db29a0f6e94f1e9535",
+   "bytes": 597798
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/17_cs885-lecture10_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture10.pdf",
+   "pages": 14,
+   "sha256": "3334dac5969d7bc9ab17e7a34509c433f4b449279edba5408cc2e0c37dbf314f",
+   "bytes": 724530
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/18_cs885-lecture11a_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture11a.pdf",
+   "pages": 28,
+   "sha256": "a9227d2c2761523b596945d9226437540a405dde67a7a58e41863ae4ec46ccb5",
+   "bytes": 1167545
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/19_cs885-lecture11b_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture11b.pdf",
+   "pages": 18,
+   "sha256": "71ae9d005f0f228eb96d9497b1f07b149154399915d7b7ea8c35fcd842837377",
+   "bytes": 437577
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/20_cs885-lecture12a_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture12a.pdf",
+   "pages": 14,
+   "sha256": "7a315b1f736c830dda367692831a3fabafdaa3a95c651f2e72ff2756cc78ec28",
+   "bytes": 1568117
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/21_cs885-lecture12b_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture12b.pdf",
+   "pages": 18,
+   "sha256": "f64e69a6ad89a6895c466be864fdd7935fe5f582aeb474468ab558b3e57789f2",
+   "bytes": 343018
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/22_cs885-lecture13_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture13.pdf",
+   "pages": 29,
+   "sha256": "c87c38f62e3c1f1cc03aba7d61eea321851888ef0ec6cc843aae2bc5809eda60",
+   "bytes": 3889615
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/23_cs885-lecture14_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture14.pdf",
+   "pages": 24,
+   "sha256": "541fe95b2175a535f373c26c206c3c82ff5e419f69be2900bb0653d526705820",
+   "bytes": 1876031
+  },
+  {
+   "path": "courses/Waterloo_CS885_RL_Winter2025_en/24_cs885-lecture15_en.pdf",
+   "url": "https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/slides/cs885-lecture15.pdf",
+   "pages": 18,
+   "sha256": "f4d599e64b0c5d965facc421b0a436ee02949fb091c34b31d6a2f00048886a81",
+   "bytes": 1809219
+  }
+ ],
+ "note": "24 个 PDF 全部 HTTP 200 且可解析，合计 456 页；文件链接取自官方索引页 https://cs.uwaterloo.ca/~ppoupart/teaching/cs885-winter25/schedule.html（该页列出的全部匹配文件均已下载）"
+}

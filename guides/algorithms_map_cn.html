@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>算法地图</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]]}};</script>
+<script defer src="../_offline_libs/mathjax-3.2.2/es5/tex-mml-chtml.js"></script>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>算法地图</h1>
+<p>把本库算法按问题类型而不是按年份排列。论文在各 <code>NN_*/papers/</code>，代码在 <a href="../projects/"><code>projects/</code></a>。</p>
+<h2>精确求解（模型已知、状态可枚举）</h2>
+<p>价值迭代 / 策略迭代 / 线性规划。教材：Sutton 第 4 章、Kochenderfer 第 7 章、MIT 6.231 课件包。</p>
+<h2>表格学习</h2>
+<table><thead><tr><th>方法</th><th>同/离策略</th><th>bootstrap</th><th>资料</th></tr></thead><tbody><tr><td>MC</td><td>均可</td><td>否</td><td>Sutton 第 5 章；Silver 第 4 讲</td></tr><tr><td>TD(0)/TD(λ)</td><td>预测</td><td>是</td><td>Sutton 第 6、12 章</td></tr><tr><td>SARSA</td><td>同策略</td><td>是</td><td>Sutton 第 6 章</td></tr><tr><td>Q-learning</td><td>离策略</td><td>是</td><td>Sutton 第 6 章；论文 <code>1807.03765</code></td></tr></tbody></table>
+<h2>价值函数逼近</h2>
+<p>DQN 及扩展在 <a href="../03_value_based/papers/"><code>03_value_based/papers/</code></a>：DQN、Double DQN、PER、Dueling、C51（分布式价值）。Rainbow / QR-DQN / IMPALA 的单文件或模块化实现见 CleanRL 与 SB3，不必把未入库论文当成已下载。</p>
+<p>实现对照：</p>
+<ul><li>模块化：<a href="../projects/DLR_RM_stable_baselines3_en/"><code>projects/DLR_RM_stable_baselines3_en/</code></a>（DQN）。</li><li>单文件：<a href="../projects/vwxyzjn_cleanrl_en/cleanrl/dqn.py"><code>projects/vwxyzjn_cleanrl_en/cleanrl/dqn.py</code></a>。</li></ul>
+<h2>策略梯度与 Actor–Critic</h2>
+<p><a href="../04_policy_actor_critic/papers/"><code>04_policy_actor_critic/papers/</code></a>：REINFORCE/A3C、GAE、TRPO、PPO、DDPG、TD3、SAC。</p>
+<p>实现：</p>
+<ul><li>PPO/SAC：SB3 与 CleanRL（<code>cleanrl/ppo.py</code>、<code>cleanrl/sac_continuous_action.py</code>）。</li><li>教学对照：<a href="../courses/OpenAI_SpinningUp_DeepRL_html_en/spinningup.openai.com/en/latest/index.html"><code>courses/OpenAI_SpinningUp_DeepRL_html_en/</code></a>（git 快照本轮未计入）。</li><li>采集器/回放：<a href="../projects/pytorch_rl_TorchRL_en/"><code>projects/pytorch_rl_TorchRL_en/</code></a>。</li></ul>
+<p>自然梯度与信赖域：TRPO 论文 + Spinning Up TRPO 页。PPO 是工程上的信赖域替代，不是理论上的同一保证。</p>
+<h2>探索</h2>
+<p>Bandit 书 → ICM/RND/HER/Go-Explore，见 <a href="../05_exploration/papers/"><code>05_exploration/papers/</code></a>。目标条件策略用 HER，不要把稀疏奖励只交给 ε-greedy。</p>
+<h2>模型式</h2>
+<p>Dyna（Sutton 第 8 章）→ PETS/MBPO → PlaNet/Dreamer 族 → MuZero → TD-MPC。代码：<a href="../projects/danijar_dreamerv3_en/"><code>projects/danijar_dreamerv3_en/</code></a>、<a href="../projects/google_brax_en/"><code>projects/google_brax_en/</code></a>。</p>
+<p>模型误差会在规划中被放大；Dreamer 成绩不能直接当成无模型 PPO 在同一环境的公平对照，除非预算与评测协议对齐。</p>
+<h2>离线与模仿</h2>
+<p>CQL/IQL/TD3+BC、GAIL/AIRL、Decision Transformer：<a href="../07_offline_imitation/papers/"><code>07_offline_imitation/papers/</code></a>。代码：<a href="../projects/takuseno_d3rlpy_en/"><code>projects/takuseno_d3rlpy_en/</code></a>、<a href="../projects/tinkoff_ai_CORL_en/"><code>projects/tinkoff_ai_CORL_en/</code></a>、<a href="../projects/kzl_decision_transformer_en/"><code>projects/kzl_decision_transformer_en/</code></a>。</p>
+<h2>部分可观测与分层</h2>
+<p>DRQN、Option-Critic、HIRO、FuN：<a href="../08_partial_observability_hierarchy/papers/"><code>08_partial_observability_hierarchy/papers/</code></a>。环境：<a href="../projects/Farama_Minigrid_en/"><code>projects/Farama_Minigrid_en/</code></a>。</p>
+<h2>多智能体</h2>
+<p>MADDPG/COMA/QMIX/MAPPO：<a href="../09_multi_agent/papers/"><code>09_multi_agent/papers/</code></a>。环境与算法：PettingZoo、OpenSpiel、EPyMARL。</p>
+<h2>安全</h2>
+<p>CPO 与 Safety-Gymnasium：<a href="../10_safe_robust/papers/"><code>10_safe_robust/papers/</code></a>、<code>projects/PKU_Alignment_safety_gymnasium_en/</code>。</p>
+</body></html>

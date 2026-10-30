@@ -1,0 +1,15 @@
+{
+ "status": "verified",
+ "set": "courses",
+ "title": "UC Berkeley CS188 Introduction to Artificial Intelligence (Fall 2024) course pages",
+ "files": [
+  {
+   "path": "courses/Berkeley_CS188_Intro_AI_fa24_html_en",
+   "url": "https://inst.eecs.berkeley.edu/~cs188/fa24/",
+   "html_pages": 3,
+   "files": 4,
+   "bytes": 81916
+  }
+ ],
+ "note": "官方 HTML，3 个页面全部 HTTP 200 且正文 ≥ 400 字符；已按 URL 路径保存页面本体（未镜像站外 CSS/JS），共 4 个文件；页面清单 PAGES_en.txt"
+}

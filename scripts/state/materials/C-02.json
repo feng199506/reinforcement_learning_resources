@@ -1,0 +1,85 @@
+{
+ "status": "verified",
+ "set": "courses",
+ "title": "UCL COMPM050/COMPGI13 Reinforcement Learning (David Silver, Advanced Topics 2015) lecture slides + Easy21",
+ "files": [
+  {
+   "path": "courses/UCL_David_Silver_RL_Course_2015_en/01_intro_rl_en.pdf",
+   "url": "https://davidstarsilver.wordpress.com/wp-content/uploads/2025/04/intro_rl.pdf",
+   "pages": 46,
+   "sha256": "2beb6a5fc4288f112fcf23bf6de4716734715ffd6d6deac55b833f7d9f269ed2",
+   "bytes": 2997953
+  },
+  {
+   "path": "courses/UCL_David_Silver_RL_Course_2015_en/02_lecture-2-mdp_en.pdf",
+   "url": "https://davidstarsilver.wordpress.com/wp-content/uploads/2025/04/lecture-2-mdp.pdf",
+   "pages": 57,
+   "sha256": "e66a0f67021ed3be71c508cc7a4f35e0fabff4b67d7494e938a462f66aac615a",
+   "bytes": 835315
+  },
+  {
+   "path": "courses/UCL_David_Silver_RL_Course_2015_en/03_lecture-3-planning-by-dynamic-programming-_en.pdf",
+   "url": "https://davidstarsilver.wordpress.com/wp-content/uploads/2025/04/lecture-3-planning-by-dynamic-programming-.pdf",
+   "pages": 42,
+   "sha256": "df46f18640f2ce49ef0cc44d437832690a21212429da5dd7437bd2df7354c1e0",
+   "bytes": 823976
+  },
+  {
+   "path": "courses/UCL_David_Silver_RL_Course_2015_en/04_lecture-4-model-free-prediction-_en.pdf",
+   "url": "https://davidstarsilver.wordpress.com/wp-content/uploads/2025/04/lecture-4-model-free-prediction-.pdf",
+   "pages": 51,
+   "sha256": "fb0de0e717eb95e909c659c181bc365f8539a7663f9dd8e9d9fa3ae0f483d631",
+   "bytes": 1455589
+  },
+  {
+   "path": "courses/UCL_David_Silver_RL_Course_2015_en/05_lecture-5-model-free-control-_en.pdf",
+   "url": "https://davidstarsilver.wordpress.com/wp-content/uploads/2025/04/lecture-5-model-free-control-.pdf",
+   "pages": 43,
+   "sha256": "30a12502c8dc9139b64c470c4770c6f53c9fc15b275d9ad791a20f1eb58beff0",
+   "bytes": 1494703
+  },
+  {
+   "path": "courses/UCL_David_Silver_RL_Course_2015_en/06_lecture-6-value-function-approximation-_en.pdf",
+   "url": "https://davidstarsilver.wordpress.com/wp-content/uploads/2025/04/lecture-6-value-function-approximation-.pdf",
+   "pages": 56,
+   "sha256": "f90659fe9aeb81eb8e1cce29b0d99df1309d279238c15460dfcdbf168a8d754c",
+   "bytes": 1996806
+  },
+  {
+   "path": "courses/UCL_David_Silver_RL_Course_2015_en/07_lecture-7-policy-gradient-methods_en.pdf",
+   "url": "https://davidstarsilver.wordpress.com/wp-content/uploads/2025/04/lecture-7-policy-gradient-methods.pdf",
+   "pages": 41,
+   "sha256": "28105c485c64631cc926669124a8e6115ca2175b8c23d3f734133d450323e4e1",
+   "bytes": 1874832
+  },
+  {
+   "path": "courses/UCL_David_Silver_RL_Course_2015_en/08_lecture-8-integrating-learning-and-planning_en.pdf",
+   "url": "https://davidstarsilver.wordpress.com/wp-content/uploads/2025/04/lecture-8-integrating-learning-and-planning.pdf",
+   "pages": 54,
+   "sha256": "76c068b6e0072d3af8a4b9680f9b2e769e407d12d52cfd760c2f754256d38a3a",
+   "bytes": 2176944
+  },
+  {
+   "path": "courses/UCL_David_Silver_RL_Course_2015_en/09_lecture-9-exploration-and-exploitation_en.pdf",
+   "url": "https://davidstarsilver.wordpress.com/wp-content/uploads/2025/04/lecture-9-exploration-and-exploitation.pdf",
+   "pages": 47,
+   "sha256": "eb2bca63cdac51a616aa413c767d39fcd18f471e74f5ecaf2b18daf6fdc6a4dd",
+   "bytes": 1339671
+  },
+  {
+   "path": "courses/UCL_David_Silver_RL_Course_2015_en/10_lecture-10-case-study-rl-in-classic-games_en.pdf",
+   "url": "https://davidstarsilver.wordpress.com/wp-content/uploads/2025/04/lecture-10-case-study-rl-in-classic-games.pdf",
+   "pages": 44,
+   "sha256": "50ef3f86f48a5d16a547bc38670280d641560d553ee2959cce2cd093479ec688",
+   "bytes": 3103889
+  },
+  {
+   "path": "courses/UCL_David_Silver_RL_Course_2015_en/11_easy21-assignment_en.pdf",
+   "url": "https://davidstarsilver.wordpress.com/wp-content/uploads/2025/04/easy21-assignment.pdf",
+   "pages": 4,
+   "sha256": "df35acd311f496792e2897474bf26b1f3baf660c0b93c56bb299e4f66b0db754",
+   "bytes": 231599
+  }
+ ],
+ "note": "11 个 PDF 全部 HTTP 200 且可解析，合计 485 页"
+}

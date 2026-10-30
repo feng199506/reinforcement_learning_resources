@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8"><title>语言模型强化学习路线</title>
+<style>body{font-family:"Microsoft YaHei","PingFang SC","Noto Sans CJK SC",sans-serif;max-width:1100px;margin:2em auto;
+padding:0 1em;line-height:1.6;color:#222}table{border-collapse:collapse;margin:1em 0;font-size:14px}th,td{border:1px solid #ccc;
+padding:4px 8px;vertical-align:top}th{background:#f3f3f3}code{background:#f5f5f5;padding:0 3px}pre{background:#f5f5f5;padding:8px;
+overflow:auto}a{color:#0645ad}.muted{color:#888}.nav{font-size:14px;margin-bottom:1em}</style>
+<script>window.MathJax={tex:{inlineMath:[["\\(","\\)"]],displayMath:[["\\[","\\]"],["$$","$$"]]}};</script>
+<script defer src="../_offline_libs/mathjax-3.2.2/es5/tex-mml-chtml.js"></script>
+</head><body>
+<div class="nav"><a href="../index_cn.html">← 离线首页 index_cn.html</a></div>
+<h1>语言模型强化学习路线</h1>
+<p>必须先区分训练方法，不能把所有后训练都叫 RL。</p>
+<table><thead><tr><th>方法</th><th>是否强化学习</th><th>本库入口</th></tr></thead><tbody><tr><td>SFT</td><td>否，监督</td><td>TRL <code>sft_trainer</code> 文档与 <a href="../projects/huggingface_trl_en/"><code>projects/huggingface_trl_en/</code></a></td></tr><tr><td>奖励模型</td><td>监督学习（偏好对）</td><td>TRL <code>reward_trainer</code></td></tr><tr><td>PPO-RLHF</td><td>是，在线 RL（策略对奖励模型）</td><td>InstructGPT 论文；TRL <code>ppo_trainer</code></td></tr><tr><td>DPO</td><td>否，偏好对上的分类/回归目标</td><td>arXiv:2305.18290；TRL <code>dpo_trainer</code></td></tr><tr><td>GRPO / 可验证奖励</td><td>是，组相对策略梯度</td><td>DeepSeekMath arXiv:2402.03300</td></tr><tr><td>RLAIF</td><td>用模型偏好代替人类</td><td>见 <a href="../12_llm_reasoning_agents/papers/"><code>12_llm_reasoning_agents/papers/</code></a></td></tr></tbody></table>
+<h2>阅读顺序</h2>
+<ol><li>Ziegler / Stiennon / InstructGPT / Bai HH：RLHF 流程。</li><li>DPO：明确它<strong>替代</strong> PPO，不是 PPO 的实现细节。</li><li>Let's Verify Step by Step、GSM8K：过程奖励与可验证奖励。</li><li>DeepSeek-R1：推理 RL；注意哪些阶段是 SFT、哪些是 RL。</li><li>奖励投机：奖励模型被策略钻空，与真实目标不一致。</li></ol>
+<h2>代码</h2>
+<ul><li>TRL：通用后训练。</li><li>veRL：<a href="../projects/volcengine_verl_en/"><code>projects/volcengine_verl_en/</code></a>，分布式 LLM RL，与游戏/机器人管线不通用。</li></ul>
+<h2>工程隔离</h2>
+<p>不默认 LLM RL、游戏 RL、机器人 RL 共用训练管线。观测是 token，动作是 token 或工具调用，奖励常来自模型或校验器，终止是 EOS/步数，与 MuJoCo 的 terminated/truncated 不是同一套语义。</p>
+<p>权重与大型语料本轮不下载。</p>
+</body></html>

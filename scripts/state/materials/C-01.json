@@ -1,0 +1,17 @@
+{
+ "status": "verified",
+ "set": "courses",
+ "title": "MIT 6.231 Dynamic Programming and Stochastic Control (Fall 2015) course pack",
+ "files": [
+  {
+   "path": "courses/MIT_OCW_6_231_DP_Stochastic_Control_F2015_en.zip",
+   "url": "https://ocw.mit.edu/courses/6-231-dynamic-programming-and-stochastic-control-fall-2015/6.231-fall-2015.zip",
+   "pdfs": 56,
+   "pdf_pages": 1361,
+   "html": 94,
+   "sha256": "dd5322185a2c3be99650104f98e237b6d7cae8a658a24853e277761bc9053f77",
+   "bytes": 37470306
+  }
+ ],
+ "note": "官方压缩包（原样保存），zip 完整性通过，含 542 个文件、56 个 PDF（合计 1361 页）全部可解析、94 个 HTML"
+}

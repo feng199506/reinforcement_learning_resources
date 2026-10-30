@@ -1,0 +1,5 @@
+repo: https://github.com/kzl/decision-transformer
+ref: HEAD
+commit: e2d82e68f330c00f763507b3b01d774740bee53f
+archive: https://codeload.github.com/kzl/decision-transformer/zip/e2d82e68f330c00f763507b3b01d774740bee53f
+archive_sha256: ae8c031b89fcd21274b9e45dc1ac291794de0fddaf25f04f1f6a615cc1962d9c
